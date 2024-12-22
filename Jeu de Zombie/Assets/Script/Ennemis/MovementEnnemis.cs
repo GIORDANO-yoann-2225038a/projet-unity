@@ -9,6 +9,13 @@ public class MovementEnnemis : MonoBehaviour
     public float vitesse = 5f; // Vitesse de déplacement
     public Point pointScore;
     public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
+    private EnnemisHealth ennemisHealth; // Référence au script EnnemisHealth
+
+    void Start()
+    {
+        // Récupérer la référence au script EnnemisHealth attaché à ce GameObject
+        ennemisHealth = GetComponent<EnnemisHealth>();
+    }
     
     void Update()
     {
@@ -33,9 +40,16 @@ public class MovementEnnemis : MonoBehaviour
         // Vous pouvez vérifier ici si le GameObject touché a un certain tag
         if (collision.gameObject.name=="Projectile(Clone)") 
          {
-            pointScore.AddPoint();  
-            gameObject.SetActive(false); // Détruire cet objet
-            respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
+            ennemisHealth.TakeDamageEnnemis(10);
+            if (ennemisHealth.currenthealthEnnemis <= 0)
+            {
+                pointScore.AddPoint();  
+                gameObject.SetActive(false); // Détruire cet objet
+                ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;
+                respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
+            }
+            
+            
           
         }   
         else if (collision.transform.CompareTag("Player")) 

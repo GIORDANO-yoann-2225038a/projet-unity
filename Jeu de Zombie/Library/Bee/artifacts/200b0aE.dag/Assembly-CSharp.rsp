@@ -351,6 +351,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Script/Ennemis/EnnemisHealth.cs"
+"Assets/Script/Ennemis/HealthBarEnnemis.cs"
 "Assets/Script/Ennemis/MovementEnnemis.cs"
 "Assets/Script/Ennemis/RespawnEnnemis.cs"
 "Assets/Script/Player/Deplacement.cs"

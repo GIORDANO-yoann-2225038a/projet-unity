@@ -41,8 +41,19 @@ public class Projectile : MonoBehaviour
         munition-=1;
         textmun.text = munition.ToString();
         // Détruit le projectile après un certain temps pour éviter d'accumuler trop d'objets
+        void OnCollisionEnter(Collision collision)
+        {
+            // Vous pouvez vérifier ici si le GameObject touché a un certain tag
+            if (collision.gameObject.CompareTag("Ennemis")) 
+            {
+                    Destroy(projectile, projectileLifetime);
+            } 
+        }
         Destroy(projectile, projectileLifetime);
-        
     }
+    
+    
+        
+    
 
 }
