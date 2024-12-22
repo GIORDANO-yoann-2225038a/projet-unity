@@ -18,9 +18,10 @@ public class Deplacement : MonoBehaviour
         transform.Translate(horizontalInput*movementSpeed * Time.deltaTime,0,verticalInput*movementSpeed * Time.deltaTime);
        // Get the mouse delta. This is not in the range -1...1
         float h = speedRotate * Input.GetAxis("Mouse X");
+        //float b = speedRotate * -Input.GetAxis("Mouse Y");
         
 
-        transform.Rotate(0, h, 0);
+        transform.Rotate(0, h,0 );
         
 
     }
