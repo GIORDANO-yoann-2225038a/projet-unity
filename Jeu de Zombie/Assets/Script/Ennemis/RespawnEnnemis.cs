@@ -17,7 +17,7 @@ public class RespawnEnnemis : MonoBehaviour
     }
       
     // Coroutine pour respawn de l'ennemi après un délai
-    IEnumerator RespawnEnemy()
+    public IEnumerator RespawnEnemy()
     {
         yield return new WaitForSeconds(10f); // 10 secondes de délai avant le respawn
         ennemi.SetActive(true);
