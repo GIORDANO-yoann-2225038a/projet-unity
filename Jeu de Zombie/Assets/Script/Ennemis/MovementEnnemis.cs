@@ -24,7 +24,7 @@ public class MovementEnnemis : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * vitesse);
         }
-        
+
         
     }
       // Fonction pour gérer les collisions
@@ -35,7 +35,7 @@ public class MovementEnnemis : MonoBehaviour
          {
             pointScore.AddPoint();  
             gameObject.SetActive(false); // Détruire cet objet
-            respawnScript.StartCoroutine(respawnScript.RespawnEnemy());
+            respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
           
         }   
         else if (collision.transform.CompareTag("Player")) 
