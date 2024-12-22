@@ -356,6 +356,8 @@
 "Assets/Script/Player/HealthBar.cs"
 "Assets/Script/Player/PlayerHealth.cs"
 "Assets/Script/Player/Projectile.cs"
+"Assets/Script/Player/RotatePlayer.cs"
+"Assets/Script/Player/RotationCam.cs"
 "Assets/Script/System/CollisionBalle.cs"
 -langversion:9.0
 /deterministic
