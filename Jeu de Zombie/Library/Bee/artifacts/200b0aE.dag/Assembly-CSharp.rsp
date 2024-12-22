@@ -352,13 +352,15 @@
 -analyzer:"/Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/Ennemis/MovementEnnemis.cs"
+"Assets/Script/Ennemis/RespawnEnnemis.cs"
 "Assets/Script/Player/Deplacement.cs"
 "Assets/Script/Player/HealthBar.cs"
 "Assets/Script/Player/PlayerHealth.cs"
-"Assets/Script/Player/Projectile.cs"
 "Assets/Script/Player/RotatePlayer.cs"
-"Assets/Script/Player/RotationCam.cs"
 "Assets/Script/System/CollisionBalle.cs"
+"Assets/Script/System/Point.cs"
+"Assets/Script/System/Projectile.cs"
+"Assets/Script/System/RotationCam.cs"
 -langversion:9.0
 /deterministic
 /optimize+

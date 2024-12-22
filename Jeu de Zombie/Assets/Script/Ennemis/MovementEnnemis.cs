@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MovementEnnemis : MonoBehaviour
 {
     public Transform cible; // La cible vers laquelle se déplacer
     public float vitesse = 5f; // Vitesse de déplacement
+    public Point pointScore;
+    public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
     
-    
-    
-
     void Update()
     {
         if (cible != null)
@@ -25,6 +25,7 @@ public class MovementEnnemis : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * vitesse);
         }
         
+        
     }
       // Fonction pour gérer les collisions
     void OnCollisionEnter(Collision collision)
@@ -32,13 +33,16 @@ public class MovementEnnemis : MonoBehaviour
         // Vous pouvez vérifier ici si le GameObject touché a un certain tag
         if (collision.gameObject.name=="Projectile(Clone)") 
          {
+            pointScore.AddPoint();  
             gameObject.SetActive(false); // Détruire cet objet
+            respawnScript.StartCoroutine(respawnScript.RespawnEnemy());
+          
         }   
         else if (collision.transform.CompareTag("Player")) 
         {
             PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
             playerHealth.TakeDamage(10);
         }     
-        
     }
+
 }
