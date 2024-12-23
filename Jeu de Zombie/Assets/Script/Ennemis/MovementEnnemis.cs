@@ -10,6 +10,7 @@ public class MovementEnnemis : MonoBehaviour
     public Point pointScore;
     public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
     private EnnemisHealth ennemisHealth; // Référence au script EnnemisHealth
+    public HealthBarEnnemis healthBarEnnemis;
 
     void Start()
     {
@@ -45,8 +46,10 @@ public class MovementEnnemis : MonoBehaviour
             {
                 pointScore.AddPoint();  
                 gameObject.SetActive(false); // Détruire cet objet
-                ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;
+                
                 respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
+                ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;
+                //healthBarEnnemis.SetHealthBar(maxHealthEnnemis); 
             }
             
             
