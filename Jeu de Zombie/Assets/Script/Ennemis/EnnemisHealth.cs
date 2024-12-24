@@ -7,13 +7,13 @@ public class EnnemisHealth : MonoBehaviour
 
     public int maxHealthEnnemis;
     public int currenthealthEnnemis;
-    public HealthBarEnnemis healthBarEnnemis;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         currenthealthEnnemis=maxHealthEnnemis;
-        healthBarEnnemis.SetHealthBar(maxHealthEnnemis); 
+        
     }
 
     // Update is called once per frame
@@ -28,6 +28,6 @@ public class EnnemisHealth : MonoBehaviour
     public void TakeDamageEnnemis(int damage)
     {
         currenthealthEnnemis -= damage;
-        healthBarEnnemis.SetHealthBar(currenthealthEnnemis);   
+        
     }
 }

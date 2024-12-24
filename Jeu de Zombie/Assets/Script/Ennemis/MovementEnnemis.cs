@@ -10,7 +10,7 @@ public class MovementEnnemis : MonoBehaviour
     public Point pointScore;
     public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
     private EnnemisHealth ennemisHealth; // Référence au script EnnemisHealth
-    public HealthBarEnnemis healthBarEnnemis;
+    
 
     void Start()
     {
@@ -38,7 +38,7 @@ public class MovementEnnemis : MonoBehaviour
       // Fonction pour gérer les collisions
     void OnCollisionEnter(Collision collision)
     {
-        // Vous pouvez vérifier ici si le GameObject touché a un certain tag
+        
         if (collision.gameObject.name=="Projectile(Clone)") 
          {
             ennemisHealth.TakeDamageEnnemis(10);
@@ -49,7 +49,7 @@ public class MovementEnnemis : MonoBehaviour
                 
                 respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
                 ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;
-                //healthBarEnnemis.SetHealthBar(maxHealthEnnemis); 
+               
             }
             
             

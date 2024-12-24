@@ -362,6 +362,9 @@
 "Assets/Script/System/CollisionBalle.cs"
 "Assets/Script/System/Point.cs"
 "Assets/Script/System/Projectile.cs"
+"Assets/Script/System/RecupPiece.cs"
+"Assets/Script/System/RespawnMun.cs"
+"Assets/Script/System/RotatePiece.cs"
 "Assets/Script/System/RotationCam.cs"
 -langversion:9.0
 /deterministic
