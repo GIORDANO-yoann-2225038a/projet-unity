@@ -10,6 +10,9 @@ public class MovementEnnemis : MonoBehaviour
     public Point pointScore;
     public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
     private EnnemisHealth ennemisHealth; // Référence au script EnnemisHealth
+    public AudioSource soundZombie;
+    public AudioClip impact;
+    public AudioClip attack;
     
 
     void Start()
@@ -27,6 +30,7 @@ public class MovementEnnemis : MonoBehaviour
 
             // Déplacer l'objet vers la cible
             transform.position += direction * vitesse * Time.deltaTime;
+            
 
             // Optionnel : Faire tourner l'objet pour qu'il fasse face à la cible
             Quaternion lookRotation = Quaternion.LookRotation(direction);
@@ -42,6 +46,7 @@ public class MovementEnnemis : MonoBehaviour
         if (collision.gameObject.name=="Projectile(Clone)") 
          {
             ennemisHealth.TakeDamageEnnemis(25);
+            soundZombie.PlayOneShot(impact);
             if (ennemisHealth.currenthealthEnnemis <= 0)
             {
                 pointScore.AddPoint();  
@@ -59,6 +64,7 @@ public class MovementEnnemis : MonoBehaviour
         {
             PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
             playerHealth.TakeDamage(10);
+            soundZombie.PlayOneShot(attack);
         }     
     }
 

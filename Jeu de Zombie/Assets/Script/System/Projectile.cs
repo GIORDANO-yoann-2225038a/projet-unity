@@ -10,6 +10,9 @@ public class Projectile : MonoBehaviour
     private float projectileLifetime = 5f;  // Durée de vie du projectile
     public int munition ; 
     public TextMeshProUGUI textmun;
+    public AudioSource shoot;
+    public AudioClip fire;
+    public AudioClip bullet;
 
     void Update()
     {
@@ -20,6 +23,8 @@ public class Projectile : MonoBehaviour
             {
                 // Appel de la fonction pour tirer un projectile
                 TirerProjectile();
+                shoot.PlayOneShot(fire);
+                shoot.PlayOneShot(bullet);
             }
         }
         

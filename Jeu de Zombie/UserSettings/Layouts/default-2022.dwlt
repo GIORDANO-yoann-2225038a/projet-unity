@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1440
     height: 900
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 163
+  controlID: 14
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 77
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 78
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -242,8 +242,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 611
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -395,7 +395,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -497,9 +497,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c6ecffff
-      m_LastClickedID: -4922
-      m_ExpandedIDs: c6ecffffc8f1ffff3efaffff4cfaffff56faffffc6faffff365a0000485a0000dc5a0000
+      m_SelectedIDs: 345dfeff
+      m_LastClickedID: -107212
+      m_ExpandedIDs: 3a96fdff0492feff60faffffc6faffff405a0000485a0000725a0000be5a0000ce5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -905,9 +905,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.2194848, y: 0.94999886, z: 0.26159376}
+    m_Target: {x: -5.3022957, y: 0.49999994, z: 0.71666145}
     speed: 2
-    m_Value: {x: 0.2194848, y: 0.94999886, z: 0.26159376}
+    m_Value: {x: -5.3022957, y: 0.49999997, z: 0.71666145}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -953,20 +953,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.053513266, y: -0.40212786, z: 0.023551296, w: -0.9137151}
+    m_Target: {x: 0.19676618, y: -0.6322822, z: 0.17050958, w: 0.7296938}
     speed: 2
-    m_Value: {x: -0.053513255, y: -0.40212777, z: 0.02355129, w: -0.9137149}
+    m_Value: {x: 0.19676381, y: -0.63227457, z: 0.17050752, w: 0.729685}
   m_Size:
-    m_Target: 0.8445385
+    m_Target: 0.39417675
     speed: 2
-    m_Value: 0.8445385
+    m_Value: 6.878422
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 0.998035
-    m_SpeedNormalized: 0.49650002
+    m_Speed: 1.0905703
+    m_SpeedNormalized: 0.54300016
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/Ennemis
+    - Assets/Son/ZombieHorrorPackageFree/MP3
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1084,17 +1084,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/Ennemis
+  - Assets/Son/ZombieHorrorPackageFree/MP3
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/Users/raoulmaoulida/Documents/Cours/Anne\u0301e 2024-2025/Programmation
     multime\u0301dia/projet-unity/Jeu de Zombie"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce5b0000
-    m_LastClickedID: 23502
-    m_ExpandedIDs: 00000000b25b0000b45b0000
+    scrollPos: {x: 0, y: 46}
+    m_SelectedIDs: c86d0100
+    m_LastClickedID: 93640
+    m_ExpandedIDs: 00000000ba5b0000bc5b00009a490100c46d0100c86d0100cc6d0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b25b0000b45b0000
+    m_ExpandedIDs: 00000000ba5b0000bc5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
