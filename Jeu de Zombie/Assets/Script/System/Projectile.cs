@@ -39,7 +39,7 @@ public class Projectile : MonoBehaviour
             rb.velocity = transform.forward * projectileSpeed;  // Applique une vitesse vers l'avant
         }
         munition-=1;
-        textmun.text = munition.ToString();
+        textmun.text = munition.ToString()+" / 30";
         // Détruit le projectile après un certain temps pour éviter d'accumuler trop d'objets
 
         Destroy(projectile, projectileLifetime);

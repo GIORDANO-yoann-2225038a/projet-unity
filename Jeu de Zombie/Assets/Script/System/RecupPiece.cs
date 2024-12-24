@@ -20,7 +20,7 @@ public class RecupPiece : MonoBehaviour
             {
                 balleRestant = balleMax - balle.munition;
                 balle.munition += balleRestant;
-                textmun.text = balle.munition.ToString();
+                textmun.text = balle.munition.ToString()+" / 30";
                 DestroyObj();
             }
             else if (balle.munition==30)
@@ -30,7 +30,7 @@ public class RecupPiece : MonoBehaviour
             else
             {
                 balle.munition+=10;
-                textmun.text = balle.munition.ToString();
+                textmun.text = balle.munition.ToString()+" / 30";
                 DestroyObj();
             }
             

@@ -10,7 +10,7 @@ public class Point : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        point.text = scores.ToString();
+        point.text ="Score : " +scores.ToString();
     }
     public void AddPoint()
     {

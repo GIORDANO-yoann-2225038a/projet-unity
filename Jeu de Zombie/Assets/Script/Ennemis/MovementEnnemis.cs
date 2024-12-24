@@ -41,7 +41,7 @@ public class MovementEnnemis : MonoBehaviour
         
         if (collision.gameObject.name=="Projectile(Clone)") 
          {
-            ennemisHealth.TakeDamageEnnemis(10);
+            ennemisHealth.TakeDamageEnnemis(25);
             if (ennemisHealth.currenthealthEnnemis <= 0)
             {
                 pointScore.AddPoint();  

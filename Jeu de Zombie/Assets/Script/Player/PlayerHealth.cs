@@ -4,6 +4,7 @@ using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -11,20 +12,23 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth;
     public int currenthealth;
     public HealthBar healthBar;
+    public TextMeshProUGUI textPointHeal;
 
     // Start is called before the first frame update
     void Start()
     {
         currenthealth=maxHealth;
         healthBar.SetHealthBar(maxHealth); 
+        textPointHeal.text = currenthealth.ToString()+" / 100";
     }
     
     public void TakeDamage(int damage)
     {
         currenthealth -= damage;
         healthBar.SetHealthBar(currenthealth); 
+        textPointHeal.text = currenthealth.ToString()+" / 100";
         // Quand les vies sont à 0, le Playmode s'arrête.
-        if(currenthealth == 0f){
+        if(currenthealth <= 0f){
             EditorApplication.isPlaying = false; // Arrête le mode Play
             Debug.Log("Play Mode arrêté.");
         }   
