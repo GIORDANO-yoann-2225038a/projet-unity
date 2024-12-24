@@ -6,8 +6,8 @@ public class RespawnMun : MonoBehaviour
 {
     public List<GameObject> balles; // Liste des balles
     public float respawnDelay = 10f; // Délai avant le respawn
-    public Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
-    public Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
+    private Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
+    private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
 
     private Vector3 randomPosition;  // Stocke la position aléatoire
 

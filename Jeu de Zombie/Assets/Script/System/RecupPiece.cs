@@ -9,7 +9,7 @@ public class RecupPiece : MonoBehaviour
     private int balleRestant;
     public int balleMax;
     public TextMeshProUGUI textmun;
-    public RespawnMun respawnScript;
+    public AudioSource reload;
 
     void OnTriggerEnter(Collider collision)
     {
@@ -18,6 +18,7 @@ public class RecupPiece : MonoBehaviour
             Debug.Log("Le joueur a récupéré la pièce");
             if(balle.munition >20 && balle.munition <30)
             {
+                reload.Play();
                 balleRestant = balleMax - balle.munition;
                 balle.munition += balleRestant;
                 textmun.text = balle.munition.ToString()+" / 30";
@@ -29,6 +30,7 @@ public class RecupPiece : MonoBehaviour
             }
             else
             {
+                reload.Play();
                 balle.munition+=10;
                 textmun.text = balle.munition.ToString()+" / 30";
                 DestroyObj();
@@ -39,7 +41,6 @@ public class RecupPiece : MonoBehaviour
     void DestroyObj()
     {
         this.gameObject.SetActive(false);
-        respawnScript.RespawnBalle(this.gameObject);
     }
 
 }

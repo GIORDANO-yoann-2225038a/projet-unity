@@ -6,9 +6,10 @@ public class RespawnEnnemis : MonoBehaviour
 {
     public List<GameObject> ennemis; // Liste des ennemis
     public float respawnDelay = 10f; // Délai avant le respawn
-    public Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
-    public Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
+    private Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
+    private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
     private Vector3 randomPosition;  // Stocke la position aléatoire
+    public 
 
     void Update()
     {
@@ -35,6 +36,13 @@ public class RespawnEnnemis : MonoBehaviour
         );
         // Réinitialiser la position de l'ennemi
         ennemi.transform.position = randomPosition;
+        
+        EnnemisHealth ennemiHealth = ennemi.GetComponent<EnnemisHealth>();
+        if (ennemiHealth != null)
+        {
+            ennemiHealth.currenthealthEnnemis = ennemiHealth.maxHealthEnnemis; // Réinitialiser la santé
+        }
+
         // Attendre un certain délai avant de réactiver l'ennemi
         yield return new WaitForSeconds(respawnDelay);
 

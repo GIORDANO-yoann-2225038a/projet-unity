@@ -9,7 +9,7 @@ public class RecupCoffre : MonoBehaviour
     private int vieRestant;
     public TextMeshProUGUI textVie;
     public HealthBar healthBar;
-    public RespawnVie respawnScript;
+    
 
     void OnTriggerEnter(Collider collision)
     {
@@ -41,7 +41,6 @@ public class RecupCoffre : MonoBehaviour
     void DestroyObj()
     {
         this.gameObject.SetActive(false);
-        respawnScript.RespawnVies(this.gameObject);
     }
 
 }
