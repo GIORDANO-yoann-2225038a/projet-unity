@@ -7,6 +7,7 @@ public class Deplacement : MonoBehaviour
 //movement speed in units per second
     public float movementSpeed = 5f;
     public bool recup = false;
+    public int etages;
     
 
     void Update()
@@ -17,5 +18,6 @@ public class Deplacement : MonoBehaviour
 
         //update the position
         transform.Translate(horizontalInput*movementSpeed * Time.deltaTime,0,verticalInput*movementSpeed * Time.deltaTime);
+
     }
 }

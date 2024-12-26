@@ -13,17 +13,21 @@ public class MovementEnnemis : MonoBehaviour
     public AudioSource soundZombie;
     public AudioClip impact;
     public AudioClip attack;
+    public int etageZombie;
+    public Deplacement posPlayer;
     
 
     void Start()
     {
         // Récupérer la référence au script EnnemisHealth attaché à ce GameObject
         ennemisHealth = GetComponent<EnnemisHealth>();
+        posPlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
+
     }
     
     void Update()
     {
-        if (cible != null)
+        if (cible != null && posPlayer.etages==etageZombie)
         {
             // Calculer la direction vers la cible
             Vector3 direction = (cible.position - transform.position).normalized;
