@@ -13,6 +13,7 @@ public class Projectile : MonoBehaviour
     public AudioSource shoot;
     public AudioClip fire;
     public AudioClip bullet;
+    public Viseur viserZoom;
 
     void Update()
     {
@@ -27,15 +28,21 @@ public class Projectile : MonoBehaviour
                 shoot.PlayOneShot(bullet);
             }
         }
-        
+        if (Input.GetButton("Zoom")) // Clic droit pour viser (zoom)
+        {
+            viserZoom.ViseurZoom();
+        }
+        else
+        {
+            viserZoom.ViseurNormal();
+        }
     }
 
-    // Fonction pour tirer un projectile
+    
     void TirerProjectile()
     {
         // Instancie un nouveau projectile à la position et rotation de l'objet actuel
         GameObject projectile = Instantiate(projectilePrefab, transform.position+transform.forward, Quaternion.Euler(0, 90, 90));
-        
 
         // Ajoute une force vers l'avant pour que le projectile avance
         Rigidbody rb = projectile.GetComponent<Rigidbody>();

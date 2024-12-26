@@ -360,9 +360,9 @@
 "Assets/Script/Ennemis/RespawnEnnemis.cs"
 "Assets/Script/Player/Deplacement.cs"
 "Assets/Script/Player/HealthBar.cs"
-"Assets/Script/Player/PlayerController.cs"
 "Assets/Script/Player/PlayerHealth.cs"
 "Assets/Script/Player/RotatePlayer.cs"
+"Assets/Script/Player/Viser.cs"
 "Assets/Script/System/CollisionBalle.cs"
 "Assets/Script/System/Point.cs"
 "Assets/Script/System/Projectile.cs"
@@ -372,6 +372,7 @@
 "Assets/Script/System/RespawnVie.cs"
 "Assets/Script/System/RotateObject.cs"
 "Assets/Script/System/RotationCam.cs"
+"Assets/Script/System/Viseur.cs"
 -langversion:9.0
 /deterministic
 /optimize+
