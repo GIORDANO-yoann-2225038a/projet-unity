@@ -6,6 +6,7 @@ public class Deplacement : MonoBehaviour
 {
 //movement speed in units per second
     public float movementSpeed = 5f;
+    public bool recup = false;
     
 
     void Update()
