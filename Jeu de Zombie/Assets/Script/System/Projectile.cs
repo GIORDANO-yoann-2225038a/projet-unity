@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour
         if(munition != 0)
         {
             // Si la touche Espace est appuyée
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetButtonDown("Fire1"))
             {
                 // Appel de la fonction pour tirer un projectile
                 TirerProjectile();

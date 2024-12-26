@@ -13,7 +13,7 @@ public class RotationPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float h = speedRotate * Input.GetAxis("Mouse X"); // Rotation horizontale 
+        float h = speedRotate * Input.GetAxis("Camera X"); // Rotation horizontale 
         if (Mathf.Abs(h) <= maxAngle || Mathf.Abs(h) >= minAngle)
         {
             transform.Rotate(0,h,0);

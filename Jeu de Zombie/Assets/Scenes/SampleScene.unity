@@ -1100,6 +1100,7 @@ MonoBehaviour:
   maxHealth: 100
   currenthealth: 0
   healthBar: {fileID: 618538034}
+  isInvicible: 0
   textPointHeal: {fileID: 2010098289}
 --- !u!114 &372188301
 MonoBehaviour:
@@ -3430,7 +3431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430396480663252994, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.93
+      value: -8.26
       objectReference: {fileID: 0}
     - target: {fileID: 8430396480663252994, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
       propertyPath: m_LocalPosition.z

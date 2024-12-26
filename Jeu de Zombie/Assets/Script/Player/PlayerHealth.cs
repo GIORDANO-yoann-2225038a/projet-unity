@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth;
     public int currenthealth;
     public HealthBar healthBar;
+    public bool isInvicible = false;
     public TextMeshProUGUI textPointHeal;
 
     // Start is called before the first frame update
@@ -24,14 +25,25 @@ public class PlayerHealth : MonoBehaviour
     
     public void TakeDamage(int damage)
     {
-        currenthealth -= damage;
-        healthBar.SetHealthBar(currenthealth); 
-        textPointHeal.text = currenthealth.ToString()+" / 100";
-        // Quand les vies sont à 0, le Playmode s'arrête.
+        if(!isInvicible)
+        {
+            currenthealth -= damage;
+            healthBar.SetHealthBar(currenthealth); 
+            textPointHeal.text = currenthealth.ToString()+" / 100";
+            isInvicible = true;
+            StartCoroutine(PlayerInvicible());
+        }
+                    // Quand les vies sont à 0, le Playmode s'arrête.
         if(currenthealth <= 0f){
             EditorApplication.isPlaying = false; // Arrête le mode Play
             Debug.Log("Play Mode arrêté.");
-        }   
+        } 
+  
+    }
+    public IEnumerator PlayerInvicible()
+    {
+        yield return new WaitForSeconds(3f);
+        isInvicible = false;
     }
 
 }
