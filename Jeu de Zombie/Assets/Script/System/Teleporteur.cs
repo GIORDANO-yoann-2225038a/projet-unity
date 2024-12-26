@@ -9,6 +9,11 @@ public class Teleporteur : MonoBehaviour
     private Vector3 pos;
     public int etage = 1 ;
     public Deplacement etagePlayer;
+
+    void Start()
+    {
+        etagePlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
+    }
     void OnTriggerEnter(Collider collision)
     {
          if (collision.tag == "Player")

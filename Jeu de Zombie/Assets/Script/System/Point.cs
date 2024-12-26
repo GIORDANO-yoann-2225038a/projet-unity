@@ -7,19 +7,21 @@ public class Point : MonoBehaviour
 {
     public TextMeshProUGUI point;
     private int scores = 0; 
-    public RecupCle cle;
+    public RecupCle scoreCle;
     // Update is called once per frame
     void Start()
     {
-        cle.gameObject.SetActive(false);
+        scoreCle= GameObject.Find("cle").GetComponent<RecupCle>();
     }
     void Update()
     {
         point.text ="Score : " +scores.ToString();
-        if(scores == 20)
+         if(scores == 20)
         {
-            cle.gameObject.SetActive(true);
+            Debug.Log("test");
+            scoreCle.gameObject.SetActive(true);
         }
+        
     }
     public void AddPoint()
     {

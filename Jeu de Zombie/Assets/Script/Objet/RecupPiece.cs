@@ -11,6 +11,11 @@ public class RecupPiece : MonoBehaviour
     public TextMeshProUGUI textmun;
     public AudioSource reload;
 
+    void Start()
+    {
+        balle = GameObject.Find("Pistolet").GetComponent<Projectile>();
+    }
+
     void OnTriggerEnter(Collider collision)
     {
         if (collision.tag == "Player")

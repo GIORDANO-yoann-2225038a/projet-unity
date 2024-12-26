@@ -9,7 +9,11 @@ public class RecupCoffre : MonoBehaviour
     private int vieRestant;
     public TextMeshProUGUI textVie;
     public HealthBar healthBar;
-    
+    void Start()
+    {
+       vie = GameObject.Find("Sprite").GetComponent<PlayerHealth>();
+       healthBar = GameObject.Find("HealthBar").GetComponent<HealthBar>();
+    }
 
     void OnTriggerEnter(Collider collision)
     {

@@ -6,7 +6,7 @@ using TMPro;
 public class MovementEnnemis : MonoBehaviour
 {
     public Transform cible; // La cible vers laquelle se déplacer
-    public float vitesse = 5f; // Vitesse de déplacement
+    public float vitesse = 1f; // Vitesse de déplacement
     public Point pointScore;
     public RespawnEnnemis respawnScript; // Référence au script RespawnEnnemis
     private EnnemisHealth ennemisHealth; // Référence au script EnnemisHealth
@@ -20,8 +20,11 @@ public class MovementEnnemis : MonoBehaviour
     void Start()
     {
         // Récupérer la référence au script EnnemisHealth attaché à ce GameObject
+        cible = GameObject.Find("Sprite").GetComponent<Transform>();
         ennemisHealth = GetComponent<EnnemisHealth>();
         posPlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
+        pointScore = GameObject.Find("Score").GetComponent<Point>();
+        respawnScript = GameObject.Find("RespawnObject").GetComponent<RespawnEnnemis>();
 
     }
     
