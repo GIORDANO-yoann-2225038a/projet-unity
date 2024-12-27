@@ -549,7 +549,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &247594016
 Canvas:
   m_ObjectHideFlags: 0
@@ -764,10 +764,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 247594017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1782, y: 428.45}
-  m_SizeDelta: {x: 245.389, y: -1018.9681}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 544, y: 255}
+  m_SizeDelta: {x: 245.389, y: 197.0065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343420939
 MonoBehaviour:
@@ -1202,7 +1202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -843, y: 504}
+  m_AnchoredPosition: {x: -414, y: 308}
   m_SizeDelta: {x: 226.48633, y: 79.06351}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493743165
@@ -1547,7 +1547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 804, y: 509}
+  m_AnchoredPosition: {x: 548, y: 294}
   m_SizeDelta: {x: 209.03003, y: 59.06897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618538034
@@ -1838,6 +1838,7 @@ MonoBehaviour:
   posPlayer: {fileID: 372188296}
   etage: 2
   etagePlayer: {fileID: 372188297}
+  playerSortie: 0
 --- !u!65 &667585389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1917,6 +1918,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2174454147654733112, guid: 90a510314774c45d6966f1c0eb471736, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3619858051142826360, guid: 90a510314774c45d6966f1c0eb471736, type: 3}
       propertyPath: m_Name
       value: Ennemis (1)
@@ -1931,7 +1936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8723375000576555675, guid: 90a510314774c45d6966f1c0eb471736, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5767033
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 8723375000576555675, guid: 90a510314774c45d6966f1c0eb471736, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2346,6 +2351,7 @@ MonoBehaviour:
   posPlayer: {fileID: 372188296}
   etage: 2
   etagePlayer: {fileID: 0}
+  playerSortie: 0
 --- !u!65 &735040940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2613,6 +2619,7 @@ MonoBehaviour:
   posPlayer: {fileID: 372188296}
   etage: 3
   etagePlayer: {fileID: 372188297}
+  playerSortie: 0
 --- !u!65 &895314667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3338,7 +3345,7 @@ Transform:
   m_GameObject: {fileID: 1188735008}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6726232, y: 0.86, z: 8.66}
+  m_LocalPosition: {x: -1.6726232, y: 0.82, z: 8.66}
   m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4121,6 +4128,7 @@ MonoBehaviour:
   posPlayer: {fileID: 372188296}
   etage: 1
   etagePlayer: {fileID: 372188297}
+  playerSortie: 0
 --- !u!65 &1656530748
 BoxCollider:
   m_ObjectHideFlags: 0
