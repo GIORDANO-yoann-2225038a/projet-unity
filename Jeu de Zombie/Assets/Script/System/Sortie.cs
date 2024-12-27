@@ -7,14 +7,33 @@ using UnityEditor;
 public class Sortie : MonoBehaviour
 {
     public Deplacement cle; 
+    private bool playerSortie;
 
     void OnTriggerEnter(Collider collision)
     {
-        // Vérifiez si le GameObject touché a le tag "Ennemis"
+        
         if (collision.tag == "Player" && cle.recup==true )
         {
-            Destroy(gameObject); // Détruire ce projectile
-            EditorApplication.isPlaying = false; // Arrête le mode Play
+            playerSortie = true; 
+            Debug.Log("Le joueur est à côté de la porte.");
+        }
+    }
+
+    void OnTriggerExit(Collider collision)
+    {
+        if (collision.tag=="Player")
+        {
+            playerSortie = false; 
+            Debug.Log("Le joueur a quitté la zone de la porte.");
+        }
+    }
+
+    void Update()
+    {
+        if(playerSortie ==true && cle.recup==true & Input.GetButtonDown("Confirm"))
+        {
+            Destroy(gameObject); 
+            EditorApplication.isPlaying = false; 
             Debug.Log("Play Mode arrêté.");
         }
     }

@@ -9,29 +9,49 @@ public class Teleporteur : MonoBehaviour
     private Vector3 pos;
     public int etage = 1 ;
     public Deplacement etagePlayer;
+    public bool playerSortie;
 
     void Start()
     {
         etagePlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
     }
-    void OnTriggerEnter(Collider collision)
+    void Update()
     {
-         if (collision.tag == "Player")
+         if (playerSortie == true & Input.GetButtonDown("Confirm"))
         {
             pos = new Vector3(escalierSortie.position.x+1,escalierSortie.position.y,escalierSortie.position.z);
             posPlayer.position = pos;
+            if (etage == 1)
+            {
+                etagePlayer.etages = etage;
+            }
+            else if (etage == 2)
+            {
+                etagePlayer.etages = etage;
+            }
+            else
+            {
+                etagePlayer.etages = 3;
+            }
         }
-        if (etage == 1)
+
+    }
+
+        void OnTriggerEnter(Collider collision)
+    {
+        if (collision.tag == "Player")
         {
-            etagePlayer.etages = etage;
+            playerSortie = true; 
+            Debug.Log("Le joueur est à côté de la porte.");
         }
-        else if (etage == 2)
+    }
+
+    void OnTriggerExit(Collider collision)
+    {
+        if (collision.tag=="Player")
         {
-            etagePlayer.etages = etage;
-        }
-        else
-        {
-            etagePlayer.etages = 3;
+            playerSortie = false; 
+            Debug.Log("Le joueur a quitté la zone de la porte.");
         }
     }
 }

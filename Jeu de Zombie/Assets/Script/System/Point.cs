@@ -8,7 +8,7 @@ public class Point : MonoBehaviour
     public TextMeshProUGUI point;
     private int scores = 0; 
     public RecupCle scoreCle;
-    // Update is called once per frame
+    
     void Start()
     {
         scoreCle= GameObject.Find("cle").GetComponent<RecupCle>();
@@ -18,7 +18,6 @@ public class Point : MonoBehaviour
         point.text ="Score : " +scores.ToString();
          if(scores == 20)
         {
-            Debug.Log("test");
             scoreCle.gameObject.SetActive(true);
         }
         
