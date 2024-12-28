@@ -31,15 +31,12 @@ public class Deplacement : MonoBehaviour
             {
                 movementSpeed = 5f;
             }
-            else
-            {
-                animations.SetBool("IsRun", false);
-            }
-            
+
         }
         else
         {
             isRun = false;
+            animations.SetBool("IsRun", isRun);
             movementSpeed =3f;
         }
         transform.Translate(0,0,verticalInput*movementSpeed * Time.deltaTime);
