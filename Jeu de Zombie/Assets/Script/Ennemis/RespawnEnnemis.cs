@@ -10,19 +10,6 @@ public class RespawnEnnemis : MonoBehaviour
     private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
     private Vector3 randomPosition;  // Stocke la position aléatoire
 
-    void Update()
-    {
-        // Vérifier si un ennemi est désactivé
-        foreach (GameObject ennemi in ennemis)
-        {
-            if (!ennemi.activeSelf)
-            {
-                // Si l'ennemi est désactivé, démarrer le respawn pour cet ennemi
-                StartCoroutine(RespawnEnemy(ennemi));
-            }
-        }
-    }
-
     // Coroutine pour respawn d'un ennemi après un délai
     public IEnumerator RespawnEnemy(GameObject ennemi)
     {

@@ -7,7 +7,6 @@ public class RecupPiece : MonoBehaviour
 {
     public Projectile balle;
     private int balleRestant;
-    public int balleMax;
     public TextMeshProUGUI textmun;
     public AudioSource reload;
     public Animator animations;
@@ -30,9 +29,9 @@ public class RecupPiece : MonoBehaviour
             {
                 
                 reload.Play();
-                balleRestant = balleMax - balle.munition;
+                balleRestant = balle.munitionMax - balle.munition;
                 balle.munition += balleRestant;
-                textmun.text = balle.munition.ToString()+" / 30";
+                textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
                  // Jouer l'animation et le son de rechargement
 
                 
@@ -47,7 +46,7 @@ public class RecupPiece : MonoBehaviour
                 
                 reload.Play();
                 balle.munition+=10;
-                textmun.text = balle.munition.ToString()+" / 30";
+                textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
                 DestroyObj();
             }
             

@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     private float projectileSpeed = 20f;  // Vitesse du projectile
     private float projectileLifetime = 5f;  // Durée de vie du projectile
     public int munition ; 
+    public int munitionMax = 30;
     public TextMeshProUGUI textmun;
     public AudioSource shoot;
     public AudioClip fire;
@@ -74,7 +75,7 @@ public class Projectile : MonoBehaviour
             rb.velocity = transform.forward * projectileSpeed;  // Applique une vitesse vers l'avant
         }
         munition-=1;
-        textmun.text = munition.ToString()+" / 30";
+        textmun.text = munition.ToString()+ " / "+ munitionMax.ToString();
         // Détruit le projectile après un certain temps pour éviter d'accumuler trop d'objets
 
         Destroy(projectile, projectileLifetime);
