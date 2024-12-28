@@ -24,7 +24,7 @@ public class Reload : MonoBehaviour
     void Update()
     {
         // Détecter la commande de rechargement (par défaut "R")
-        if (Input.GetKeyDown("r") && balle.munitionMax!=0 && balle.munition <15 )
+        if (Input.GetButtonDown("Reload") && balle.munitionMax!=0 && balle.munition <15 )
         {
             animations.SetBool("IsReload", true);
             reload.Play();
@@ -43,7 +43,7 @@ public class Reload : MonoBehaviour
                 balle.munition +=10;
             }
             
-            textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
+            
         }
         else
         {
@@ -58,5 +58,6 @@ public class Reload : MonoBehaviour
         yield return new WaitForSeconds(reloadTime);
         // Fin de l'animation de rechargement
         animations.SetBool("IsReload", false);
+        textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
     }
 }

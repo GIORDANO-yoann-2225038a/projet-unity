@@ -13,6 +13,7 @@ public class RecupCoffre : MonoBehaviour
     {
        vie = GameObject.Find("Sprite").GetComponent<PlayerHealth>();
        healthBar = GameObject.Find("HealthBar").GetComponent<HealthBar>();
+       textVie =  GameObject.Find("PointHeal").GetComponent<TextMeshProUGUI>();
     }
 
     void OnTriggerEnter(Collider collision)

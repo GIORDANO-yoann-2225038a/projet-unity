@@ -27,9 +27,13 @@ public class Deplacement : MonoBehaviour
         {
             isRun = Input.GetButton("Run");
             animations.SetBool("IsRun",isRun);
-            if(isRun == true)
+            if(isRun == true && verticalInput >0)
             {
                 movementSpeed = 5f;
+            }
+            else
+            {
+                animations.SetBool("IsRun", false);
             }
             
         }

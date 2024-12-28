@@ -27,14 +27,13 @@ public class PlayerHealth : MonoBehaviour
     
     public void TakeDamage(int damage)
     {
-        if(!isInvicible)
-        {
+       
             currenthealth -= damage;
             healthBar.SetHealthBar(currenthealth); 
             textPointHeal.text = currenthealth.ToString()+" / 100";
             isInvicible = true;
-            StartCoroutine(PlayerInvicible());
-        }
+            //StartCoroutine(PlayerInvicible());
+        
                     // Quand les vies sont à 0, le Playmode s'arrête.
         if(currenthealth <= 0f){
             EditorApplication.isPlaying = false; // Arrête le mode Play
