@@ -18,6 +18,8 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        healthBar = GameObject.Find("HealthBar").GetComponent<HealthBar>();
+        textPointHeal = GameObject.Find("PointHeal").GetComponent<TextMeshProUGUI>();
         currenthealth=maxHealth;
         healthBar.SetHealthBar(maxHealth); 
         textPointHeal.text = currenthealth.ToString()+" / 100";

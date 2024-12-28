@@ -14,6 +14,7 @@ public class Teleporteur : MonoBehaviour
     void Start()
     {
         etagePlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
+        posPlayer = GameObject.Find("Sprite").GetComponent<Transform>();
     }
     void Update()
     {

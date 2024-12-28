@@ -14,6 +14,7 @@ public class RotationPlayer : MonoBehaviour
     void Update()
     {
         float h = speedRotate * Input.GetAxis("Camera X"); // Rotation horizontale 
+        float b = speedRotate * Input.GetAxis("Camera Y"); // Rotation verticale
         if (Mathf.Abs(h) <= maxAngle || Mathf.Abs(h) >= minAngle)
         {
             transform.Rotate(0,h,0);

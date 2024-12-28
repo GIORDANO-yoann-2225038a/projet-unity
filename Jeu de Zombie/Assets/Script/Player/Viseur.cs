@@ -11,7 +11,6 @@ public class Viseur : MonoBehaviour
     public RotationPlayer camPlayer;
     public Deplacement speed;
 
-
     public void ViseurZoom()
     {
             playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, zoom, Time.deltaTime * 5f);

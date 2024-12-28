@@ -14,6 +14,13 @@ public class Projectile : MonoBehaviour
     public AudioClip fire;
     public AudioClip bullet;
     public Viseur viserZoom;
+    public Animator animations;
+
+    void Start()
+    {
+        animations = GameObject.Find("Soldier").GetComponent<Animator>(); 
+        textmun = GameObject.Find("Munition").GetComponent<TextMeshProUGUI>();    
+    }
 
     void Update()
     {
@@ -23,24 +30,40 @@ public class Projectile : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 // Appel de la fonction pour tirer un projectile
+                        // Gérer les autres actions
+                animations.SetBool("IsShoot", Input.GetButton("Fire1"));
                 TirerProjectile();
                 shoot.PlayOneShot(fire);
                 shoot.PlayOneShot(bullet);
             }
+            else 
+            {
+                animations.SetBool("IsShoot", false);
+            }
         }
+        else
+        {
+            animations.SetBool("IsShoot", false);
+        }
+
         if (Input.GetButton("Zoom")) // Clic droit pour viser (zoom)
         {
+            animations.SetBool("IsPoint", true);
             viserZoom.ViseurZoom();
         }
         else
         {
             viserZoom.ViseurNormal();
+            animations.SetBool("IsPoint", false);
+            
+            
         }
     }
 
     
     void TirerProjectile()
     {
+        
         // Instancie un nouveau projectile à la position et rotation de l'objet actuel
         GameObject projectile = Instantiate(projectilePrefab, transform.position+transform.forward, Quaternion.Euler(0, 90, 90));
 

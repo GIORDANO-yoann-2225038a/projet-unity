@@ -74,6 +74,7 @@ public class MovementEnnemis : MonoBehaviour
             soundZombie.PlayOneShot(impact);
             if (ennemisHealth.currenthealthEnnemis <= 0)
             {
+                //soundZombie.Stop();
                 isDead = true;
                 isRun = false;
                 animations.SetBool("IsDead",isDead);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotationCam : MonoBehaviour
 {
-    public float speedRotate = 12f;
+    public float speedRotate = 5f;
     public float minAngle = -45f;     // Angle minimum autorisé
     public float maxAngle = 45f;      // Angle maximum autorisé
 
@@ -14,6 +14,7 @@ public class RotationCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         float h = speedRotate * Input.GetAxis("Camera X"); // Rotation horizontale
         float b = speedRotate * Input.GetAxis("Camera Y"); // Rotation verticale
 
@@ -24,6 +25,6 @@ public class RotationCam : MonoBehaviour
         rotateY = Mathf.Clamp(rotateY, minAngle, maxAngle);
 
         
-        transform.localRotation = Quaternion.Euler(rotateX, rotateY, 0);
+        transform.localRotation = Quaternion.Euler(rotateX, 0, 0);
     }
 }
