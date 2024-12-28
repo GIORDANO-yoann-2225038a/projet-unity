@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1532787384195554352}
   - component: {fileID: 3118773769454777817}
   - component: {fileID: 2259512442095431845}
-  - component: {fileID: 6587861295018466514}
   m_Layer: 0
   m_Name: Pistolet
   m_TagString: Player
@@ -50,7 +49,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
-  munition: 30
+  munition: 15
+  munitionMax: 30
   textmun: {fileID: 0}
   shoot: {fileID: 3118773769454777817}
   fire: {fileID: 8300000, guid: 8602b7d5cd15c1943a50aa53f171c8cf, type: 3}
@@ -184,20 +184,6 @@ MonoBehaviour:
   cam: {fileID: 1532787384195554352}
   camPlayer: {fileID: 7721617925210796079}
   speed: {fileID: -8205680697039528074}
---- !u!114 &6587861295018466514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 985838080143572690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 729b5728061214bf3b63699811b5d242, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  reloadTime: 2
 --- !u!1 &3606046083555035063
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +456,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3299236376746619352}
+    - targetCorrespondingSourceObject: {fileID: 100060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7720943939561757250}
   m_SourcePrefab: {fileID: 100100000, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
 --- !u!95 &5110134787652485367 stripped
 Animator:
@@ -507,3 +496,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.5545928, z: 0.85361195}
   m_Center: {x: 0, y: 1.3369591, z: 0.013554394}
+--- !u!114 &7720943939561757250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5110134787662017355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729b5728061214bf3b63699811b5d242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations: {fileID: 0}
+  balle: {fileID: 0}
+  textmun: {fileID: 0}
+  reload: {fileID: 0}
+  reloadTime: 3

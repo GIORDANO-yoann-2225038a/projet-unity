@@ -28,7 +28,7 @@ public class Projectile : MonoBehaviour
         if(munition != 0)
         {
             // Si la touche Espace est appuyée
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire1") && animations.GetBool("IsReload")!=true && animations.GetBool("IsRun")!=true)
             {
                 // Appel de la fonction pour tirer un projectile
                 animations.SetBool("IsShoot", Input.GetButton("Fire1"));
@@ -46,7 +46,7 @@ public class Projectile : MonoBehaviour
             animations.SetBool("IsShoot", false);
         }
 
-        if (Input.GetButton("Zoom")) // Clic droit pour viser (zoom)
+        if (Input.GetButton("Zoom") && animations.GetBool("IsRun")!=true) // Clic droit pour viser (zoom)
         {
             animations.SetBool("IsPoint", true);
             viserZoom.ViseurZoom();

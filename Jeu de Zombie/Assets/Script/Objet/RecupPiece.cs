@@ -8,9 +8,7 @@ public class RecupPiece : MonoBehaviour
     public Projectile balle;
     private int balleRestant;
     public TextMeshProUGUI textmun;
-    public AudioSource reload;
     public Animator animations;
-    //public Deplacement isWalk;
 
 
     void Start()
@@ -25,27 +23,23 @@ public class RecupPiece : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("Le joueur a récupéré la pièce");
-            if(balle.munition >20 && balle.munition <30)
+            if(balle.munitionMax >20 && balle.munitionMax <30)
             {
-                
-                reload.Play();
-                balleRestant = balle.munitionMax - balle.munition;
-                balle.munition += balleRestant;
+                balleRestant = 30 - balle.munitionMax;
+                balle.munitionMax += balleRestant;
                 textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
                  // Jouer l'animation et le son de rechargement
 
                 
                 DestroyObj();
             }
-            else if (balle.munition==30)
+            else if (balle.munitionMax==30)
             {
                 Debug.Log("Charger Plein");
             }
             else
             {
-                
-                reload.Play();
-                balle.munition+=10;
+                balle.munitionMax+=10;
                 textmun.text = balle.munition.ToString()+" / "+balle.munitionMax.ToString();
                 DestroyObj();
             }
