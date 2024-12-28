@@ -30,7 +30,6 @@ public class Projectile : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
             {
                 // Appel de la fonction pour tirer un projectile
-                        // Gérer les autres actions
                 animations.SetBool("IsShoot", Input.GetButton("Fire1"));
                 TirerProjectile();
                 shoot.PlayOneShot(fire);
@@ -65,7 +64,8 @@ public class Projectile : MonoBehaviour
     {
         
         // Instancie un nouveau projectile à la position et rotation de l'objet actuel
-        GameObject projectile = Instantiate(projectilePrefab, transform.position+transform.forward, Quaternion.Euler(0, 90, 90));
+        Quaternion angle = Quaternion.Euler(90, 0, 0);
+        GameObject projectile = Instantiate(projectilePrefab, transform.position + transform.forward, transform.rotation*angle);
 
         // Ajoute une force vers l'avant pour que le projectile avance
         Rigidbody rb = projectile.GetComponent<Rigidbody>();

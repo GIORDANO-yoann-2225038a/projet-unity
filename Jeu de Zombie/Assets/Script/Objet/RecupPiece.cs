@@ -28,13 +28,13 @@ public class RecupPiece : MonoBehaviour
             Debug.Log("Le joueur a récupéré la pièce");
             if(balle.munition >20 && balle.munition <30)
             {
-               
+                
+                reload.Play();
                 balleRestant = balleMax - balle.munition;
                 balle.munition += balleRestant;
                 textmun.text = balle.munition.ToString()+" / 30";
                  // Jouer l'animation et le son de rechargement
-                animations.SetBool("IsReload", true);
-                reload.Play();
+
                 
                 DestroyObj();
             }
@@ -44,7 +44,7 @@ public class RecupPiece : MonoBehaviour
             }
             else
             {
-                animations.SetBool("IsReload", true);
+                
                 reload.Play();
                 balle.munition+=10;
                 textmun.text = balle.munition.ToString()+" / 30";

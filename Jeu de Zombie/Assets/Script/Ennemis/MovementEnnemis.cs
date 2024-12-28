@@ -26,6 +26,7 @@ public class MovementEnnemis : MonoBehaviour
         cible = GameObject.Find("Sprite").GetComponent<Transform>();
         ennemisHealth = GetComponent<EnnemisHealth>();
         posPlayer = GameObject.Find("Sprite").GetComponent<Deplacement>();
+        soundZombie = GameObject.Find("Zombie1").GetComponent<AudioSource>();
         pointScore = GameObject.Find("Score").GetComponent<Point>();
         respawnScript = GameObject.Find("RespawnObject").GetComponent<RespawnEnnemis>();
         animations = gameObject.GetComponent<Animator>();
@@ -55,7 +56,7 @@ public class MovementEnnemis : MonoBehaviour
                  // Optionnel : Faire tourner l'objet pour qu'il fasse face à la cible
                  Quaternion lookRotation = Quaternion.LookRotation(direction);
                 transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 3);
-            animations.SetBool("IsRun", isRun);
+                animations.SetBool("IsRun", isRun);
         }
                else 
         {
@@ -68,7 +69,7 @@ public class MovementEnnemis : MonoBehaviour
       // Fonction pour gérer les collisions
     void OnCollisionEnter(Collision collision)
     {  
-        if (collision.gameObject.name=="Projectile(Clone)") 
+        if (collision.gameObject.CompareTag("Balle")) 
          {
             ennemisHealth.TakeDamageEnnemis(25);
             soundZombie.PlayOneShot(impact);
@@ -78,7 +79,6 @@ public class MovementEnnemis : MonoBehaviour
                 isDead = true;
                 isRun = false;
                 animations.SetBool("IsDead",isDead);
-                
                 pointScore.AddPoint();  
                 respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
                 ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;
@@ -92,6 +92,7 @@ public class MovementEnnemis : MonoBehaviour
             isRun = false;
             animations.SetBool("IsAttack", isAttack);
             soundZombie.PlayOneShot(attack);
+            
             
         }     
     }

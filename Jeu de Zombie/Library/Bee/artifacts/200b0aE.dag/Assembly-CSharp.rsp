@@ -367,6 +367,7 @@
 "Assets/Script/Player/Move.cs"
 "Assets/Script/Player/PlayerHealth.cs"
 "Assets/Script/Player/Projectile.cs"
+"Assets/Script/Player/Reload.cs"
 "Assets/Script/Player/RotatePlayer.cs"
 "Assets/Script/Player/Viseur.cs"
 "Assets/Script/System/CollisionBalle.cs"

@@ -48,6 +48,7 @@ public class RespawnEnnemis : MonoBehaviour
 
         // Attendre un certain délai avant de réactiver l'ennemi
         yield return new WaitForSeconds(respawnDelay);
+        //ennemi.AudioSource.Play();
         
         // Réactiver l'ennemi
         ennemi.SetActive(true);

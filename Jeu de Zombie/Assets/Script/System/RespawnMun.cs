@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class RespawnMun : MonoBehaviour
 {
-    public List<GameObject> balles; // Liste des balles
+    public List<GameObject> munitions; // Liste des munitions
     public float respawnDelay = 10f; // Délai avant le respawn
     private Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
     private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
-    public Animator animations;
     private Vector3 randomPosition;  // Stocke la position aléatoire
-
-    void Start()
-    {
-        animations = GameObject.Find("Soldier").GetComponent<Animator>();
-    }
 
     void Update()
     {
         // Vérifier si une balle est désactivée
-        foreach (GameObject balle in balles)
+        foreach (GameObject balle in munitions)
         {
             if (!balle.activeSelf)
             {
@@ -32,7 +26,6 @@ public class RespawnMun : MonoBehaviour
     // Coroutine pour respawn d'une balle après un délai
     public IEnumerator RespawnBalle(GameObject balle)
     {
-        
         // Calculer une nouvelle position aléatoire avant de réactiver la balle
         randomPosition = new Vector3(
             Random.Range(respawnAreaMin.x, respawnAreaMax.x),
@@ -42,9 +35,6 @@ public class RespawnMun : MonoBehaviour
         
         // Réinitialiser la position de la balle
         balle.transform.position = randomPosition;
-        // Attendre un certain délai avant de réactiver la balle
-        yield return new WaitForSeconds(2f);
-        animations.SetBool("IsReload", false);
         yield return new WaitForSeconds(respawnDelay);
         
         balle.SetActive(true);

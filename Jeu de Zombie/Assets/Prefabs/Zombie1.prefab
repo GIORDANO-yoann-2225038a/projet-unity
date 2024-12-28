@@ -1828,8 +1828,8 @@ MonoBehaviour:
   pointScore: {fileID: 0}
   respawnScript: {fileID: 0}
   soundZombie: {fileID: 0}
-  impact: {fileID: 0}
-  attack: {fileID: 0}
+  impact: {fileID: 8300000, guid: d65b81d6b848b467da29dab292d5ac66, type: 3}
+  attack: {fileID: 8300000, guid: 6bd85993732af42e0bfb4c67f87ae69b, type: 3}
   etageZombie: 1
   posPlayer: {fileID: 0}
   animations: {fileID: 7389507112651452681}
@@ -1869,9 +1869,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 94e452828af664292a97c95ec9452126, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.4
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

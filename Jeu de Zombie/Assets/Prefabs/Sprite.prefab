@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1532787384195554352}
   - component: {fileID: 3118773769454777817}
   - component: {fileID: 2259512442095431845}
+  - component: {fileID: 6587861295018466514}
   m_Layer: 0
   m_Name: Pistolet
   m_TagString: Player
@@ -183,6 +184,20 @@ MonoBehaviour:
   cam: {fileID: 1532787384195554352}
   camPlayer: {fileID: 7721617925210796079}
   speed: {fileID: -8205680697039528074}
+--- !u!114 &6587861295018466514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985838080143572690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 729b5728061214bf3b63699811b5d242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  reloadTime: 2
 --- !u!1 &3606046083555035063
 GameObject:
   m_ObjectHideFlags: 0
