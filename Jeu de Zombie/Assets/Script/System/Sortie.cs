@@ -8,6 +8,10 @@ public class Sortie : MonoBehaviour
 {
     public Deplacement cle; 
     private bool playerSortie;
+    void Start()
+    {
+        cle = GameObject.Find("Sprite").GetComponent<Deplacement>();
+    }
 
     void OnTriggerEnter(Collider collision)
     {

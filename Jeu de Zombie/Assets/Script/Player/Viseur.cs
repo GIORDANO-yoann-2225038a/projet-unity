@@ -23,7 +23,7 @@ public class Viseur : MonoBehaviour
         playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, normalZoom, Time.deltaTime * 5f);
         cam.speedRotate=12f;
         camPlayer.speedRotate= 12f;
-        speed.movementSpeed = 5f;
+        speed.movementSpeed = 3f;
 
     }
     

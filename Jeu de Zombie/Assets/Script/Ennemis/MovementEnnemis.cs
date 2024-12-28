@@ -78,6 +78,7 @@ public class MovementEnnemis : MonoBehaviour
                 isDead = true;
                 isRun = false;
                 animations.SetBool("IsDead",isDead);
+                
                 pointScore.AddPoint();  
                 respawnScript.StartCoroutine(respawnScript.RespawnEnemy(gameObject));
                 ennemisHealth.currenthealthEnnemis = ennemisHealth.maxHealthEnnemis;

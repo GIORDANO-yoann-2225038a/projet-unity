@@ -5,7 +5,7 @@ using UnityEngine;
 public class Deplacement : MonoBehaviour
 {
 //movement speed in units per second
-    public float movementSpeed = 0.2f;
+    public float movementSpeed = 3f;
     public bool recup = false;
     public int etages;
     public bool isRun= false;
@@ -20,18 +20,26 @@ public class Deplacement : MonoBehaviour
     {
         // Récupérer les entrées des axes
         float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
-
-        
-        bool isMoving = verticalInput != 0 || horizontalInput != 0;
-        animations.SetBool("IsRun", isMoving);
-
-        
+        bool isMoving = verticalInput != 0;
+        animations.SetBool("IsWalk", isMoving); 
         animations.SetFloat("vertical", verticalInput);
-        animations.SetFloat("horizontal", horizontalInput);
-
+        if(verticalInput >0)
+        {
+            isRun = Input.GetButton("Run");
+            animations.SetBool("IsRun",isRun);
+            if(isRun == true)
+            {
+                movementSpeed = 5f;
+            }
+            
+        }
+        else
+        {
+            isRun = false;
+            movementSpeed =3f;
+        }
+        transform.Translate(0,0,verticalInput*movementSpeed * Time.deltaTime);
         
-        transform.Translate(horizontalInput*movementSpeed * Time.deltaTime,0,verticalInput*movementSpeed * Time.deltaTime);
  
 
     }
