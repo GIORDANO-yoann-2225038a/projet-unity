@@ -6,8 +6,8 @@ public class RespawnVie : MonoBehaviour
 {
     public List<GameObject> vies; // Liste des vies
     public float respawnDelay = 10f; // Délai avant le respawn
-    private Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
-    private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
+    private Vector3 respawnAreaMin = new Vector3(-12, 0, -16); // Zone minimale pour le respawn
+    private Vector3 respawnAreaMax = new Vector3(11, 0, 13);   // Zone maximale pour le respawn
 
     private Vector3 randomPosition;  // Stocke la position aléatoire
 

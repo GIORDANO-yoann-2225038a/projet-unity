@@ -6,8 +6,8 @@ public class RespawnEnnemis : MonoBehaviour
 {
     public List<GameObject> ennemis; // Liste des ennemis
     public float respawnDelay = 10f; // Délai avant le respawn
-    private Vector3 respawnAreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
-    private Vector3 respawnAreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
+    private Vector3 respawnAreaMin = new Vector3(-12, 0, -16); // Zone minimale pour le respawn
+    private Vector3 respawnAreaMax = new Vector3(11, 0, 13);   // Zone maximale pour le respawn
     private Vector3 randomPosition;  // Stocke la position aléatoire
 
     // Coroutine pour respawn d'un ennemi après un délai
