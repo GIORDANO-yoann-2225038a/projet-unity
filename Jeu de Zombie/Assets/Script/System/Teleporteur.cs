@@ -20,19 +20,15 @@ public class Teleporteur : MonoBehaviour
     {
          if (playerSortie == true & Input.GetButtonDown("Confirm"))
         {
-            pos = new Vector3(escalierSortie.position.x+1,escalierSortie.position.y,escalierSortie.position.z);
+            pos = new Vector3(escalierSortie.position.x,escalierSortie.position.y,escalierSortie.position.z);
             posPlayer.position = pos;
             if (etage == 1)
             {
                 etagePlayer.etages = etage;
             }
-            else if (etage == 2)
+            else 
             {
                 etagePlayer.etages = etage;
-            }
-            else
-            {
-                etagePlayer.etages = 3;
             }
         }
 
