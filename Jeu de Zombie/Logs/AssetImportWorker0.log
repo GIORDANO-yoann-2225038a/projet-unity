@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50090
+50639
 Successfully changed project path to: /Users/raoulmaoulida/Documents/Cours/Année 2024-2025/Programmation multimédia/projet-unity/Jeu de Zombie
 /Users/raoulmaoulida/Documents/Cours/Année 2024-2025/Programmation multimédia/projet-unity/Jeu de Zombie
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/raoulmaoulida/Documents/Cours/Anne�
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704385308608] Host "[IP] 10.192.79.228 [Port] 0 [Flags] 2 [Guid] 797282828 [EditorId] 797282828 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Raoul.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704527321024] Host "[IP] 10.192.79.228 [Port] 0 [Flags] 2 [Guid] 3927192780 [EditorId] 3927192780 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Raoul.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704385308608] Host "[IP] 10.192.79.228 [Port] 0 [Flags] 2 [Guid] 797282828 [EditorId] 797282828 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Raoul.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704527321024] Host "[IP] 10.192.79.228 [Port] 0 [Flags] 2 [Guid] 3927192780 [EditorId] 3927192780 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Raoul.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-Refreshing native plugins compatible for Editor in 32.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.36f1 (95a4219250e5)
 [Subsystems] Discovering subsystems at path /Applications/2022.3.36f1/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/2022.3.36f1/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2022.3.36f1/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/2022.3.36f1/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56301
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2022.3.36f1/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005548 seconds.
-- Loaded All Assemblies, in  2.024 seconds
+Registered in 0.006417 seconds.
+- Loaded All Assemblies, in  1.237 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.933 seconds
-Domain Reload Profiling: 2956ms
-	BeginReloadAssembly (480ms)
+- Finished resetting the current domain, in  0.909 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (412ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (144ms)
-	RebuildNativeTypeToScriptingClass (46ms)
-	initialDomainReloadingComplete (379ms)
-	LoadAllAssembliesAndSetupDomain (972ms)
-		LoadAssemblies (480ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (411ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (963ms)
-			TypeCache.Refresh (957ms)
-				TypeCache.ScanAssembly (919ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (461ms)
+				TypeCache.ScanAssembly (423ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (934ms)
+	FinalizeReload (910ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (697ms)
+		SetupLoadedEditorAssemblies (713ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (21ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (25ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (499ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,340 +121,1260 @@ Domain Reload Profiling: 2956ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.670 seconds
-Refreshing native plugins compatible for Editor in 8.30 ms, found 2 plugins.
+- Loaded All Assemblies, in  2.231 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.886 seconds
-Domain Reload Profiling: 6556ms
-	BeginReloadAssembly (502ms)
+- Finished resetting the current domain, in  3.390 seconds
+Domain Reload Profiling: 5621ms
+	BeginReloadAssembly (485ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (175ms)
-	RebuildNativeTypeToScriptingClass (46ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (42ms)
 	initialDomainReloadingComplete (123ms)
-	LoadAllAssembliesAndSetupDomain (1822ms)
-		LoadAssemblies (1102ms)
+	LoadAllAssembliesAndSetupDomain (1451ms)
+		LoadAssemblies (958ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1008ms)
-			TypeCache.Refresh (911ms)
-				TypeCache.ScanAssembly (833ms)
-			ScanForSourceGeneratedMonoScriptInfo (63ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (3887ms)
+		AnalyzeDomain (758ms)
+			TypeCache.Refresh (689ms)
+				TypeCache.ScanAssembly (650ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3392ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3052ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (87ms)
-			SetLoadedEditorAssemblies (40ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (290ms)
-			ProcessInitializeOnLoadAttributes (2555ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launching external process: /Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.33 seconds
-Refreshing native plugins compatible for Editor in 6.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (52.8 KB). Loaded Objects now: 3974.
-Memory consumption went from 139.0 MB to 138.9 MB.
-Total: 10.402465 ms (FindLiveObjects: 0.480597 ms CreateObjectMapping: 0.561352 ms MarkObjects: 9.130972 ms  DeleteObjects: 0.227550 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5088.783910 seconds.
-  path: Assets/InputSystem.inputsettings.asset
-  artifactKey: Guid(58eab2f08c03b4b089172a4cd995ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem.inputsettings.asset using Guid(58eab2f08c03b4b089172a4cd995ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '1ecbb0c9f7741630b10dc9b446007fc9') in 0.029287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.085274 seconds.
-  path: Assets/Animations/Soldier_demo@Reload.fbx
-  artifactKey: Guid(847d50236bb7749dda105ffef32eb2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Reload.fbx using Guid(847d50236bb7749dda105ffef32eb2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '6f258589f864afcc389ebcfe974c6622') in 0.047692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Animations/Soldier_demo@Walking Backwards.fbx
-  artifactKey: Guid(d48866013d73e46858c3af6ca6536d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Walking Backwards.fbx using Guid(d48866013d73e46858c3af6ca6536d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '4ee444a4de73f4719b8110e85ece8999') in 0.009338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.001862 seconds.
-  path: Assets/Animations/Soldier_demo@Strafe Right.fbx
-  artifactKey: Guid(fba820036f9cc47f08e5a2a90a00202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Strafe Right.fbx using Guid(fba820036f9cc47f08e5a2a90a00202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: 'a35db076160fe16f464cb6dada7566e4') in 0.012023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Animations/Soldier_demo@Rifle Idle.fbx
-  artifactKey: Guid(8e4224bd22b91483b918e4da846845da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Rifle Idle.fbx using Guid(8e4224bd22b91483b918e4da846845da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: 'af2359ee6d119ee9e34a52b02e469244') in 0.008022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Animations/Soldier_demo@Reloading.fbx
-  artifactKey: Guid(55712a7bd38b241828b54c5920bd5fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Reloading.fbx using Guid(55712a7bd38b241828b54c5920bd5fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '3c7f4e026b165e8eca00472d68f0ce8b') in 0.010845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.001166 seconds.
-  path: Assets/Animations/Soldier_demo@Rifle Run.fbx
-  artifactKey: Guid(bf912121a9e8b401090a34db954f23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Rifle Run.fbx using Guid(bf912121a9e8b401090a34db954f23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: 'c8dedc77cae851d5198e6802a7b2c491') in 0.011443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000648 seconds.
-  path: Assets/Animations/Soldier_demo@Strafe Left.fbx
-  artifactKey: Guid(91292e71789ac440e83e3b488a716f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Strafe Left.fbx using Guid(91292e71789ac440e83e3b488a716f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '8615f616b3b37b8fd3c3783740582bdd') in 0.014329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000953 seconds.
-  path: Assets/Animations/Soldier_demo@Rifle Aiming Idle.fbx
-  artifactKey: Guid(d4236017d49444914b79158fabc4ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Soldier_demo@Rifle Aiming Idle.fbx using Guid(d4236017d49444914b79158fabc4ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: 'cc5face5a4d7d15cf8f27efc43501bf0') in 0.011626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 1.341647 seconds.
-  path: Assets/Animations/PlayerAction.controller
-  artifactKey: Guid(80973b244501d44c4abe4254a5c4b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/PlayerAction.controller using Guid(80973b244501d44c4abe4254a5c4b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '80f6405b495e1773176c760f1bb0eec1') in 0.014507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 51
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.263 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.948 seconds
-Domain Reload Profiling: 5213ms
-	BeginReloadAssembly (542ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (150ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (522ms)
-		LoadAssemblies (805ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (3950ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2336ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (2035ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 6.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3978.
-Memory consumption went from 142.1 MB to 142.1 MB.
-Total: 14.104088 ms (FindLiveObjects: 0.931981 ms CreateObjectMapping: 0.458386 ms MarkObjects: 12.615391 ms  DeleteObjects: 0.096369 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.102 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.082 seconds
-Domain Reload Profiling: 5183ms
-	BeginReloadAssembly (307ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (711ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (4083ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2370ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (16ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (255ms)
-			ProcessInitializeOnLoadAttributes (1990ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 7.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3981.
-Memory consumption went from 149.9 MB to 149.9 MB.
-Total: 16.196668 ms (FindLiveObjects: 0.706586 ms CreateObjectMapping: 1.534300 ms MarkObjects: 13.869510 ms  DeleteObjects: 0.084053 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.075 seconds
-Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.878 seconds
-Domain Reload Profiling: 4953ms
-	BeginReloadAssembly (280ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (87ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (613ms)
-		LoadAssemblies (694ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (35ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (3879ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1987ms)
+		SetupLoadedEditorAssemblies (2835ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (1718ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (2553ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 4.01 ms, found 2 plugins.
+Launching external process: /Applications/2022.3.36f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 3984.
-Memory consumption went from 157.4 MB to 157.4 MB.
-Total: 10.759039 ms (FindLiveObjects: 0.574882 ms CreateObjectMapping: 0.735650 ms MarkObjects: 9.356871 ms  DeleteObjects: 0.089831 ms)
+Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (52.8 KB). Loaded Objects now: 3974.
+Memory consumption went from 139.4 MB to 139.4 MB.
+Total: 9.283047 ms (FindLiveObjects: 0.486452 ms CreateObjectMapping: 0.442720 ms MarkObjects: 8.046742 ms  DeleteObjects: 0.304849 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8584.984739 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(58eab2f08c03b4b089172a4cd995ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(58eab2f08c03b4b089172a4cd995ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1ecbb0c9f7741630b10dc9b446007fc9') in 0.028707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.938575 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(23d299db898aa49878a95cd3791e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(23d299db898aa49878a95cd3791e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6a70c33bfe54729e78d1deefd08a8822') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.932 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.898 seconds
+Domain Reload Profiling: 4830ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (545ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (2081ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3978.
+Memory consumption went from 142.7 MB to 142.6 MB.
+Total: 11.087975 ms (FindLiveObjects: 0.555330 ms CreateObjectMapping: 0.471881 ms MarkObjects: 9.931137 ms  DeleteObjects: 0.127187 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 197.603406 seconds.
+  path: Assets/Prefabs/balle.fbx
+  artifactKey: Guid(24aeb89e866e5f8438e557c6aaff1b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/balle.fbx using Guid(24aeb89e866e5f8438e557c6aaff1b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dd44bf4b276fae45308a5fb026c0d11f') in 0.355363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Prefabs/Soins.prefab
+  artifactKey: Guid(8e8f1900993ef4939a68e51840aca4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Soins.prefab using Guid(8e8f1900993ef4939a68e51840aca4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a08a8863f0fdff8d35b35e584505f0e6') in 0.021078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Prefabs/Ennemis.prefab
+  artifactKey: Guid(90a510314774c45d6966f1c0eb471736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ennemis.prefab using Guid(90a510314774c45d6966f1c0eb471736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f8456351e05738dbfa2528962ccdd0de') in 0.085393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Prefabs/Escalier.prefab
+  artifactKey: Guid(42e321120f3844c61ae421298253eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Escalier.prefab using Guid(42e321120f3844c61ae421298253eb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8454b0fde6e446426fa11f2870409742') in 0.025283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Prefabs/Cle.prefab
+  artifactKey: Guid(b829f70e92b764a6dac85802a48424f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cle.prefab using Guid(b829f70e92b764a6dac85802a48424f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a708f6fc7cd2d567be3445cf6ed96398') in 0.038827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Prefabs/Sprite.prefab
+  artifactKey: Guid(860d1a06119c3411d9691fc9477a1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sprite.prefab using Guid(860d1a06119c3411d9691fc9477a1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6108eb4534406c8070c555ecb87a3311') in 0.109211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Prefabs/Zombie1.prefab
+  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0b1a9193bdf3bf38f62c72b5f57e44de') in 0.192807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Prefabs/BoiteMun.prefab
+  artifactKey: Guid(d98522886e2e64ac2b0d37da3e7aa7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BoiteMun.prefab using Guid(d98522886e2e64ac2b0d37da3e7aa7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a177693676d4fb59c961b7f55fbc26c1') in 0.027458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 47.216015 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard
+  artifactKey: Guid(b56fc1bf71e5b3649981f421100bc3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard using Guid(b56fc1bf71e5b3649981f421100bc3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '289da8e23039c9a655f128dd5fbfb314') in 0.001490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.571897 seconds.
+  path: Assets/Colonial City LittlePack/README.pdf
+  artifactKey: Guid(99221e98a3f9b2a478472638de42118e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/README.pdf using Guid(99221e98a3f9b2a478472638de42118e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '077413859ece3631ead68f9aed2e9f24') in 0.003438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.141047 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Materials
+  artifactKey: Guid(1d069a2594b59b34c8e8e35a1e16afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Materials using Guid(1d069a2594b59b34c8e8e35a1e16afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6158e5b8feab89de94b486b2ec822d00') in 0.001036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.333725 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs
+  artifactKey: Guid(f588492595d8fc94fba1a454ff00e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs using Guid(f588492595d8fc94fba1a454ff00e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dcd4db53b05db7fc8b97b4f0ac7c5aa6') in 0.003896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.214328 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard
+  artifactKey: Guid(b2eaf5009e831ae42bce75127d256bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard using Guid(b2eaf5009e831ae42bce75127d256bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a50b929e5015af03e2c1bc47d3ffffe9') in 0.002738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.259643 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4a59b6b782ad5ef71e1d2a5c1cf7934b') in 0.452238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab
+  artifactKey: Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab using Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2cc6cbfec430e766dcf338522fa83d1c') in 0.085016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave1.prefab
+  artifactKey: Guid(3410fe058b03f6544a51196feb5df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave1.prefab using Guid(3410fe058b03f6544a51196feb5df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '783401578393ac9c04fb12f4f9e2f9d6') in 0.148858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab
+  artifactKey: Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab using Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4a9353af5b1eb4e73a87affff32c6158') in 0.126223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab
+  artifactKey: Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab using Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5df417c200aa10914d44e96899fe213d') in 0.040938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000845 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab
+  artifactKey: Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab using Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd80dfb3796b19809606f66688d570ba9') in 0.037292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab
+  artifactKey: Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab using Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a515701da0202ed96cafc7b98e9d2dab') in 0.155826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab
+  artifactKey: Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab using Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '52e2bffd4a356b8a3bc884c806a2b8ce') in 0.133840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab
+  artifactKey: Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab using Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '20888e5e682ac53735937bcd1154ee96') in 0.230219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab
+  artifactKey: Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab using Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c32328a67e9e09ff8dc4ef7f03bea248') in 0.052149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6788f9860a91f719513e9012b2ae7bfd') in 0.179512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab
+  artifactKey: Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab using Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5bf2fc9c2794ffcbf303594a9c6c7a85') in 0.064108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab
+  artifactKey: Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab using Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f9b72322816c37920d580065d92d2ba3') in 0.033111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab
+  artifactKey: Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab using Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e3c3844cb3ee7117e9ade925e792e48d') in 0.082083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab
+  artifactKey: Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab using Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '72044abb5aaeb05ffe3b7778b325307a') in 0.243484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab
+  artifactKey: Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab using Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b33c6e118c593b6e2d98014d1464e22d') in 0.099817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.406 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.292 seconds
+Domain Reload Profiling: 8700ms
+	BeginReloadAssembly (520ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (218ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (786ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (7294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (4126ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (105ms)
+Refreshing native plugins compatible for Editor in 9.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.1 KB). Loaded Objects now: 3995.
+Memory consumption went from 154.1 MB to 154.0 MB.
+Total: 10.754961 ms (FindLiveObjects: 0.520089 ms CreateObjectMapping: 0.391017 ms MarkObjects: 9.728394 ms  DeleteObjects: 0.113315 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.414098 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab
+  artifactKey: Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab using Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'afd7eb60d3d038ccf20a85bd236237b9') in 0.220726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.202903 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab
+  artifactKey: Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave.prefab using Guid(861d87ac333a0e04e99afa0787681441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bcb94df3ed3b7104a9c37064169ec1d5') in 0.036925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.940 seconds
+Domain Reload Profiling: 7015ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (137ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (5941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (378ms)
+			ProcessInitializeOnLoadAttributes (3281ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 3998.
+Memory consumption went from 162.2 MB to 162.1 MB.
+Total: 9.045275 ms (FindLiveObjects: 0.438745 ms CreateObjectMapping: 0.329396 ms MarkObjects: 8.187383 ms  DeleteObjects: 0.086268 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.888165 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a54adb2a22cc68ae285e03649a352430') in 0.327664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 7.743127 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab
+  artifactKey: Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab using Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a990a68692a5b63c34a3b1ade4c6ce6f') in 0.074626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.960575 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab
+  artifactKey: Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab using Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dc8c84ffa804060c6dec86b165fa3786') in 0.032249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.265390 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab
+  artifactKey: Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab using Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2d48e4d344bf2abfd96c3a503f386f8f') in 0.028759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.775430 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab
+  artifactKey: Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab using Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '988c5d2fa45636179abbd26332083786') in 0.034251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.344609 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab
+  artifactKey: Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab using Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'baca7ece18a1b5f0f0722af7da979a0c') in 0.033058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.753834 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab
+  artifactKey: Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab using Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a3dfaa8fd837983463220f255d7ebee5') in 0.037282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.971979 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab
+  artifactKey: Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab using Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd667b47219ae1cadadc21cae4ae41e8c') in 0.038019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.063012 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab
+  artifactKey: Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab using Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '773b401a4539e6ec385b7d8c95368f99') in 0.035488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.889827 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab
+  artifactKey: Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave9.prefab using Guid(6e360a62acd35c9449183c1bd5504098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '17979d0779e8bb904c03302937e1261c') in 0.044426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.024431 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab
+  artifactKey: Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab using Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fdbafdda1498efc5bd4d940cd922ed0f') in 0.070975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.223312 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab
+  artifactKey: Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave10.prefab using Guid(eb0f0b6b32ad7d34fa85e9dcfa9f46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '904ac3e5009d8dd151c4e66d26a8a494') in 0.036579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 34.374784 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab
+  artifactKey: Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab using Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4f454e8092bfd082ad2bb8433865f88b') in 0.055994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 16.247023 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab
+  artifactKey: Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab using Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '98197d8b087377c6e149b00490ac01f1') in 0.044753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 15.618287 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab
+  artifactKey: Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab using Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5e26518c666ae9438f814b680d4ba976') in 0.298784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 5.019373 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67741aa053f1826cbec0ddd9d385df00') in 0.066896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.899023 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7c07ec0e7ab4e7d3fdd22585e2043a47') in 0.033863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.147239 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dc00c14600de562e25b38863755ef1bf') in 0.029594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.507352 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '10c6969478f297666050ab637c5dc797') in 0.043328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 10.440074 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab
+  artifactKey: Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab using Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '26e12c98cefa3a48291e7f80dea7f8fc') in 0.049346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 16.502061 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyard.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Scenes/Colonial_graveyard.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '865d80210511fce8178669b1a1b58e09') in 0.003439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.668 seconds
+Refreshing native plugins compatible for Editor in 10.49 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.037 seconds
+Domain Reload Profiling: 6706ms
+	BeginReloadAssembly (674ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (261ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (973ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (5038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2626ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (2316ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 4001.
+Memory consumption went from 170.3 MB to 170.2 MB.
+Total: 13.376673 ms (FindLiveObjects: 1.258441 ms CreateObjectMapping: 0.565051 ms MarkObjects: 11.247707 ms  DeleteObjects: 0.302298 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.591174 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f86429001a0542219e2b33f659d891c6') in 0.833408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab
+  artifactKey: Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave6.prefab using Guid(2afc9e68383e2b143b91f61d2333f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd3e6540256ffe44c4fa198f03066840b') in 0.258538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab
+  artifactKey: Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave8.prefab using Guid(b85591a506aa1ca4f917a9609cc62f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '406c515f62033dc117ae1c2ecd2c84de') in 0.038664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab
+  artifactKey: Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave4.prefab using Guid(b59cbd86aca4971449bf09c19f408f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '23da5d95d8bcad306254c706cd2f340f') in 0.037728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab
+  artifactKey: Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave5.prefab using Guid(9baa8ab1461320b46b3c8b4c0b0cfcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '86e4440c81fc8eb54a32a31226adb06d') in 0.030707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab
+  artifactKey: Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab using Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '329dc7a4bdb1a10367024fa096785bd4') in 0.111402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab
+  artifactKey: Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab using Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2d8a55f0c4ef20e7ce30c3c7aec84a82') in 0.051190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab
+  artifactKey: Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave12.prefab using Guid(2b3bbfb616deb9f4ebb0c278e6d18cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fed23b4fade6cf4b4cf4052fbdfb03fa') in 0.035604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab
+  artifactKey: Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave3.prefab using Guid(9f9bac2bf3030b0439706f487659e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '764782281c8b2689b968f0695b263532') in 0.028500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab
+  artifactKey: Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave11.prefab using Guid(8f3dc99490e1dbf4d9b2514dab0f7226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b96c572cd883c01fefc8782842449717') in 0.031620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab
+  artifactKey: Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Grave7.prefab using Guid(eb6ec0f240ab7904a9a32d306650469b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '27440f1f2bbc610d87310edae8577d29') in 0.036119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.768287 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab
+  artifactKey: Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_ground.prefab using Guid(69fc34dacc563124f9d53d366de4a6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd2962a61669c1bed52257173b39aaeed') in 0.074649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 60.820041 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1f2ce89481005a6c8fa696d490f3a84f') in 0.127856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7.290400 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a36b9151794a28d24d00e1f9b71557e6') in 0.038913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 72.092343 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f2a79aec878df6b888685814e8561310') in 0.120798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.505167 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2cdc9ad8fdc9420c9f00a6de6c5e9c6a') in 0.046168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.228 seconds
+Refreshing native plugins compatible for Editor in 6.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.705 seconds
+Domain Reload Profiling: 5933ms
+	BeginReloadAssembly (520ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (4706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (2591ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 11.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4004.
+Memory consumption went from 178.1 MB to 178.1 MB.
+Total: 19.153408 ms (FindLiveObjects: 1.058304 ms CreateObjectMapping: 2.321051 ms MarkObjects: 15.543096 ms  DeleteObjects: 0.228814 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.009647 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1dbb5f32d6c88f7aa7117feab9cf95d5') in 0.451280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.528831 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab
+  artifactKey: Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Graveyard_wall.prefab using Guid(3da074a71c3410243bdd84d882fac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '60c7db875aca9083739932e28da066f6') in 0.039442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 47.899277 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bf948c76dd53a72d0cb7507f7dfbbecd') in 0.401557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 166.472029 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(23d299db898aa49878a95cd3791e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(23d299db898aa49878a95cd3791e9760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0f7370610d5a01ece31cded901660464') in 0.028421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.524 seconds
+Refreshing native plugins compatible for Editor in 7.09 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.498 seconds
+Domain Reload Profiling: 7024ms
+	BeginReloadAssembly (605ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (269ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (676ms)
+		LoadAssemblies (871ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (5499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (3085ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 4007.
+Memory consumption went from 186.2 MB to 186.2 MB.
+Total: 9.738444 ms (FindLiveObjects: 0.470085 ms CreateObjectMapping: 0.347159 ms MarkObjects: 8.738286 ms  DeleteObjects: 0.181038 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 414.401215 seconds.
+  path: Assets/Script/System/Sortie.cs
+  artifactKey: Guid(847465aedc0f34f97b50c42271a25be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/System/Sortie.cs using Guid(847465aedc0f34f97b50c42271a25be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cafcb6d1d6c8f0239091ebc664c78491') in 0.023477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.898148 seconds.
+  path: Assets/Script/System/Teleporteur.cs
+  artifactKey: Guid(79877aa103ef548799de5c2d8bc4647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/System/Teleporteur.cs using Guid(79877aa103ef548799de5c2d8bc4647b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fc70109a59e41ed38d17a9ec74412f08') in 0.001635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.548 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.336 seconds
+Domain Reload Profiling: 7885ms
+	BeginReloadAssembly (510ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (813ms)
+		LoadAssemblies (964ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (6337ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3781ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			SetLoadedEditorAssemblies (37ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (310ms)
+			ProcessInitializeOnLoadAttributes (3242ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 5.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4010.
+Memory consumption went from 193.9 MB to 193.9 MB.
+Total: 12.904165 ms (FindLiveObjects: 0.645678 ms CreateObjectMapping: 0.844307 ms MarkObjects: 11.266532 ms  DeleteObjects: 0.145774 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -473,53 +1393,53 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.177 seconds
-Refreshing native plugins compatible for Editor in 4.60 ms, found 2 plugins.
+- Loaded All Assemblies, in  1.147 seconds
+Refreshing native plugins compatible for Editor in 5.87 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.920 seconds
-Domain Reload Profiling: 5097ms
-	BeginReloadAssembly (302ms)
+- Finished resetting the current domain, in  4.746 seconds
+Domain Reload Profiling: 5894ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (116ms)
-	RebuildNativeTypeToScriptingClass (35ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (635ms)
-		LoadAssemblies (729ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (672ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (29ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (21ms)
-	FinalizeReload (3922ms)
+	FinalizeReload (4748ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2290ms)
+		SetupLoadedEditorAssemblies (3007ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (12ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (2038ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (2618ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 5.15 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 3987.
-Memory consumption went from 164.9 MB to 164.9 MB.
-Total: 8.626021 ms (FindLiveObjects: 0.563131 ms CreateObjectMapping: 0.391045 ms MarkObjects: 7.606360 ms  DeleteObjects: 0.063356 ms)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4013.
+Memory consumption went from 201.6 MB to 201.6 MB.
+Total: 6.128050 ms (FindLiveObjects: 0.339548 ms CreateObjectMapping: 0.322531 ms MarkObjects: 5.355657 ms  DeleteObjects: 0.108530 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -535,3 +1455,503 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 397.715570 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fec80c913fbfbf467ddb13e0941b158a') in 0.553737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 16.221403 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a805eec721f2e1cd4b3c8e1927208a28') in 0.082304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.183004 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e39d19a402e911d2cdb555d7f3fdd08b') in 0.135317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 7.192616 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e4a658933c36a1f1f97fb9bc45206898') in 0.106682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 8.568554 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f978494be355e809e194d7635e36070e') in 0.068591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 11.488770 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '06af70cdef005c0ea37ae4305b1c1cd7') in 0.078718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 16.519928 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9523a7cd1aa59ec497a34e635390c7f7') in 0.075364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 12.128249 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '819b99ca0c740d0446e989dab5fa7e27') in 0.064268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 4.874985 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ed72b2c99dfa46fee123fd7b98a4919f') in 0.091561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.038 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.171 seconds
+Domain Reload Profiling: 5210ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (629ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (4174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (2173ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 4016.
+Memory consumption went from 209.5 MB to 209.4 MB.
+Total: 12.474944 ms (FindLiveObjects: 0.750406 ms CreateObjectMapping: 0.842109 ms MarkObjects: 10.787331 ms  DeleteObjects: 0.093356 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 115.421674 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4f26359fba246015120a7377ff5e53a3') in 0.379792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 9.791776 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bd4588673761716a09ad7a56972f02d9') in 0.099041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.544447 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a68e53211e07306e17de46f3fc423391') in 0.055080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.833761 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6ab09b5dff8d7adb8d1919be8d7b72f9') in 0.054917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 4.653876 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c003a2e983d6d29fe28c89cba23cdb13') in 0.061368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.002190 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6c320b87e48361f13e4cca6befc32c46') in 0.052944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 12.276821 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8854c471591cda304538e6fa35016834') in 0.159196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 4.298307 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7a7e015a0ea8c5836f5606d4cbd9fc20') in 0.084733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 3.814481 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6a4e68aa02bbfff8d7d0b08aa366b9d3') in 0.072974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.989192 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9e42d4c1dfb8dd0e6047f904b8b67186') in 0.092734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.734173 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c2a2d5958a3f1075f0e41459c039249f') in 0.061695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 4.638080 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6502f05f6e42527d8705eac60e05c1c9') in 0.072002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 4.233544 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '79b39026af0b876a10e2b7bb7c945c1a') in 0.066199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 7.875178 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4daf254ef9b7e19a0d2ed17192e115ac') in 0.072965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.375774 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6e030fb91da42be458096aa93724cdc4') in 0.071278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 10.314921 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e17f3b5becf90f9f2320795920147c6e') in 0.067002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 16.573313 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3513db4155c293a3e30ba92158586288') in 0.065818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.105372 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3be300bf03734fefcb2a4698a0d00e2e') in 0.061239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.590882 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c15bc615a6f6783f14d624c2a049e54d') in 0.055914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.610273 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '73115c82522ac06a74ccb4d8e6cf6696') in 0.062392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.787652 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '819d1102ae004822d76d0bc9fe898b28') in 0.053843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 16.846098 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0e5a8a13f8f5fb460efc058a9ebb1218') in 0.069378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.186573 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b78493a86a8c4b14711344e676fbf5d9') in 0.067513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.228723 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '40c696fed802a68a50be30984fdedb1c') in 0.069485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 7.405054 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '99aaa6c7e06c0a246427427423df4395') in 0.076457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 8.146755 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3813daecdf217d7529fa81545d02ecd1') in 0.071819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.021768 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab
+  artifactKey: Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/Church.prefab using Guid(b7296d5515d23844b88668359d702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8fbbf9c01b5824c2efcf3fa03b6467ba') in 0.075823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.066 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.322 seconds
+Domain Reload Profiling: 5389ms
+	BeginReloadAssembly (400ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (173ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (586ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (4323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (2081ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.3 KB). Loaded Objects now: 4019.
+Memory consumption went from 217.5 MB to 217.4 MB.
+Total: 10.619975 ms (FindLiveObjects: 0.431324 ms CreateObjectMapping: 0.327990 ms MarkObjects: 9.744531 ms  DeleteObjects: 0.113738 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.775838 seconds.
+  path: Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab
+  artifactKey: Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Colonial City LittlePack/Colonial_Graveyard/Prefabs/Graveyard/street lamp1.prefab using Guid(e46fda38e509f1a47ac8ed430ec0acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '830a13e699f8f75979ba744b264e209f') in 0.505643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
