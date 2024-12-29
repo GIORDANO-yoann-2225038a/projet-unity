@@ -13,7 +13,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Texture_BaseColor
-    second: {fileID: 2800000, guid: 10737a3a730dd4a7b9ea036bc820c120, type: 3}
+    second: {fileID: 2800000, guid: 58c000eb893124f54a65592ad7761972, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
