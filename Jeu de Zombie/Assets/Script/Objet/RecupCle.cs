@@ -9,7 +9,7 @@ public class RecupCle : MonoBehaviour
     private Vector3 positionCle;
     private Vector3 AreaMin = new Vector3(-10, 0, -10); // Zone minimale pour le respawn
     private Vector3 AreaMax = new Vector3(10, 0, 10);   // Zone maximale pour le respawn
-    private float[] etage = { 0.80f, -9.2f, -19.2f };
+    private float[] etage = { 1f, -11f};
     void Start()
     {
         cle = GameObject.Find("Sprite").GetComponent<Deplacement>();
