@@ -19,6 +19,8 @@ public class Reload : MonoBehaviour
         balle = GameObject.Find("Pistolet").GetComponent<Projectile>();
         animations = GameObject.Find("Soldier").GetComponent<Animator>();
         textmun = GameObject.Find("Munition").GetComponent<TextMeshProUGUI>();   
+        reload = GameObject.Find("Pistolet").GetComponent<AudioSource>();   
+    
     }
 
     void Update()
