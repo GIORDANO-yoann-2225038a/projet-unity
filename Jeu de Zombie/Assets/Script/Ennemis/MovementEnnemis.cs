@@ -43,7 +43,7 @@ public class MovementEnnemis : MonoBehaviour
 
     public void Move()
     {
-         if (cible != null && posPlayer.etages==etageZombie)
+         if (cible != null && posPlayer.etages==etageZombie && posPlayer.zone==true)
         {
             isRun = true;
             isAttack = false;

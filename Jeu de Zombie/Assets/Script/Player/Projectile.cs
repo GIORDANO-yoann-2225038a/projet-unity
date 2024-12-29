@@ -16,11 +16,13 @@ public class Projectile : MonoBehaviour
     public AudioClip bullet;
     public Viseur viserZoom;
     public Animator animations;
+    public  Deplacement zonePlayer;
 
     void Start()
     {
         animations = GameObject.Find("Soldier").GetComponent<Animator>(); 
-        textmun = GameObject.Find("Munition").GetComponent<TextMeshProUGUI>();    
+        textmun = GameObject.Find("Munition").GetComponent<TextMeshProUGUI>();   
+        zonePlayer = GameObject.Find("Sprite").GetComponent<Deplacement>(); 
     }
 
     void Update()
@@ -28,7 +30,7 @@ public class Projectile : MonoBehaviour
         if(munition != 0)
         {
             // Si la touche Espace est appuyée
-            if (Input.GetButtonDown("Fire1") && animations.GetBool("IsReload")!=true && animations.GetBool("IsRun")!=true)
+            if (Input.GetButtonDown("Fire1") && animations.GetBool("IsReload")!=true && animations.GetBool("IsRun")!=true && zonePlayer.zone==true)
             {
                 // Appel de la fonction pour tirer un projectile
                 animations.SetBool("IsShoot", Input.GetButton("Fire1"));

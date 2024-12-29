@@ -377,6 +377,7 @@
 "Assets/Script/System/RotationCam.cs"
 "Assets/Script/System/Sortie.cs"
 "Assets/Script/System/Teleporteur.cs"
+"Assets/Script/System/ZoneCombat.cs"
 -langversion:9.0
 /deterministic
 /optimize+

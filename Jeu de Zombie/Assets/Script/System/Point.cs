@@ -16,7 +16,7 @@ public class Point : MonoBehaviour
     void Update()
     {
         point.text ="Score : " +scores.ToString();
-         if(scores == 20)
+         if(scores == 200)
         {
             scoreCle.gameObject.SetActive(true);
         }

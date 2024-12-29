@@ -8,6 +8,7 @@ public class Deplacement : MonoBehaviour
     public float movementSpeed = 3f;
     public bool recup = false;
     public int etages;
+    public bool zone;
     public bool isRun= false;
     public Animator animations;
 
@@ -40,8 +41,5 @@ public class Deplacement : MonoBehaviour
             movementSpeed =3f;
         }
         transform.Translate(0,0,verticalInput*movementSpeed * Time.deltaTime);
-        
- 
-
     }
 }
