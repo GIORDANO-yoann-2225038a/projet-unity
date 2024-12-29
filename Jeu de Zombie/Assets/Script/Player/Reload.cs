@@ -25,27 +25,27 @@ public class Reload : MonoBehaviour
 
     void Update()
     {
-        // Détecter la commande de rechargement (par défaut "R")
-        if (Input.GetButtonDown("Reload") && balle.munitionMax!=0 && balle.munition <15 )
+        // Détecter la commande de rechargement (par défaut "Reload")
+        if (Input.GetButtonDown("Reload") && balle.munitionMax>0 && balle.munition <15 )
         {
             animations.SetBool("IsReload", true);
             reload.Play();
             StartCoroutine(ReloadAnim());
             Debug.Log("reload");
-            if(balle.munition >5 && balle.munition <15)
-            {
-                balleRestant = 15 - balle.munition;
-                balle.munitionMax -=balleRestant;
-                balle.munition +=balleRestant;
+            int maxChargeur = 15; 
 
+            if (balle.munitionMax <= maxChargeur - balle.munition)
+            {
+                balleRestant = balle.munitionMax;
+                balle.munition += balleRestant;
+                balle.munitionMax = 0;
             }
             else
             {
-                balle.munitionMax -=10;
-                balle.munition +=10;
+                balleRestant = maxChargeur - balle.munition;
+                balle.munition += balleRestant;
+                balle.munitionMax -= balleRestant;
             }
-            
-            
         }
         else
         {
