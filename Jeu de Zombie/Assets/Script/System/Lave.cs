@@ -11,6 +11,14 @@ public class Lave : MonoBehaviour
     public TextMeshProUGUI textPointHeal;
     public HealthBar healthBar;
 
+    void Start()
+    {
+        etageLave = GameObject.Find("Sprite").GetComponent<Deplacement>();
+        viePlayer = GameObject.Find("Sprite").GetComponent<PlayerHealth>();
+        healthBar = GameObject.Find("HealthBar").GetComponent<HealthBar>();
+        textPointHeal = GameObject.Find("PointHeal").GetComponent<TextMeshProUGUI>();
+    }
+
     void Update()
     {
         damageInterval+= Time.deltaTime;
