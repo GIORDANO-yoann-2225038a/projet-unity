@@ -10927,6 +10927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Graveyard_ground
       objectReference: {fileID: 0}
+    - target: {fileID: 1876466456533858, guid: 69fc34dacc563124f9d53d366de4a6de, type: 3}
+      propertyPath: m_TagString
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: 4685886571930254, guid: 69fc34dacc563124f9d53d366de4a6de, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10986,10 +10990,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1876466456533858, guid: 69fc34dacc563124f9d53d366de4a6de, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1078935370}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69fc34dacc563124f9d53d366de4a6de, type: 3}
 --- !u!1001 &740562850
 PrefabInstance:
@@ -14517,26 +14518,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078285549}
   m_Mesh: {fileID: 4300000, guid: 85017da7eb4eeb54a97e45354380297a, type: 3}
---- !u!1 &1078935366 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1876466456533858, guid: 69fc34dacc563124f9d53d366de4a6de, type: 3}
-  m_PrefabInstance: {fileID: 740218279}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1078935370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078935366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab9f7fc59402e4a7aaa2843c1f58658c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viePlayer: {fileID: 2052386797}
-  damageAmount: 5
-  damageInterval: 1
 --- !u!4 &1081432679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3588064661786098985, guid: eb0f0b6b32ad7d34fa85e9dcfa9f46e2, type: 3}
@@ -22081,6 +22062,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3606046083555035063, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2052386794}
+    - targetCorrespondingSourceObject: {fileID: 3606046083555035063, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2052386799}
   m_SourcePrefab: {fileID: 100100000, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
 --- !u!4 &1739341051 stripped
 Transform:
@@ -26266,6 +26250,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vie: 100
+--- !u!114 &2052386795 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8205680697039528074, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
+  m_PrefabInstance: {fileID: 1739328652}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665735204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db8ae5128fc2843468c3064b2ff7fb26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2052386797 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5732598635526709820, guid: 860d1a06119c3411d9691fc9477a1d07, type: 3}
@@ -26277,6 +26272,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3160df1981b8a4c81b62a7b4f9ae0216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2052386799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665735204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab9f7fc59402e4a7aaa2843c1f58658c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  etageLave: {fileID: 2052386795}
+  viePlayer: {fileID: 2052386797}
+  damageInterval: 0
+  textPointHeal: {fileID: 0}
+  healthBar: {fileID: 0}
 --- !u!1 &2057811831
 GameObject:
   m_ObjectHideFlags: 0
