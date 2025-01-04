@@ -1,9 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PlayerHealth : MonoBehaviour
@@ -36,8 +34,7 @@ public class PlayerHealth : MonoBehaviour
         
                     // Quand les vies sont à 0, le Playmode s'arrête.
         if(currenthealth <= 0f){
-            EditorApplication.isPlaying = false; // Arrête le mode Play
-            Debug.Log("Play Mode arrêté.");
+            SceneManager.LoadScene("GameOver");
         } 
   
     }
