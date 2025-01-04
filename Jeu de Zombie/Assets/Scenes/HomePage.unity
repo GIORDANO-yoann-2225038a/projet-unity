@@ -434,16 +434,21 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Bienvenue dans Escape Zombie, un jeu palpitant o\xF9 votre mission est
-    de survivre aux hordes de zombies et de triompher en obtenant le troph\xE9e final.
-    Mais attention, il faudra respecter quelques r\xE8gles pour jouer dans les meilleures
-    conditions\u202F!\n\nExplication du jeu : \n\n\xC9liminez tous les zombies du
-    premier \xE9tage pour activer un t\xE9l\xE9porteur.\nUne fois t\xE9l\xE9port\xE9
-    \xE0 l\u2019\xE9tage sup\xE9rieur, pr\xE9parez-vous \xE0 affronter une nouvelle
-    vague de zombies.\nTuez tous les zombies de l\u2019\xE9tage 2 pour d\xE9bloquer
-    le troph\xE9e de la victoire et gagner la partie\u202F!\n\nLes R\xE8gles du Jeu
+    de survivre aux hordes de zombies et de triompher en obtenant la cl\xE9 pour
+    s'\xE9chapper. Mais attention, il faudra respecter quelques r\xE8gles pour jouer
+    dans les meilleures conditions\u202F!\n\nExplication du jeu : \n\n\xC9chappez-vous
+    d\u2019un cimeti\xE8re infest\xE9 de zombies ! Pour r\xE9ussir, vous devez accumuler
+    au moins 200 points en \xE9liminant un maximum de zombies pr\xE9sents sur les
+    deux \xE9tages du cimeti\xE8re. Une fois cet objectif atteint, la cl\xE9 permettant
+    d\u2019acc\xE9der \xE0 l\u2019\xE9glise appara\xEEtra.\n\nLes R\xE8gles du Jeu
     \n\nCollecte des Ressources :\n\nDes munitions et des trousses de soins sont
     dispers\xE9es dans le cimeti\xE8re. Cherchez-les\u202F: elles peuvent vous sauver
-    la vie\u202F!\nLes ressources sont limit\xE9es\u202F: ne gaspillez pas vos munitions.\n\nPas
+    la vie\u202F!\nLes ressources sont limit\xE9es\u202F: ne gaspillez pas vos munitions.\n\nCommande
+    de jeu : \nClavier souris \t\t\t\t\t\t\t\t\tManette\n\nZ - Avancer \t\t\t\t\tJoystick
+    Gauche - D\xE9placement\nS - Reculer\t\t\t\t\tJoystick Droit - Rotation Cam\xE9ra\nA
+    - Courir \t\t\t\t\t\t\t\t\t    R1/RB - Courir\nR - Recharger\t\t  \t      \t\t\t\tTriangle/Y
+    - Recharger\nSouris - Rotation cam\xE9ra\t\t\t\t\t\t\tL2/LT - Viser\nClic droit
+    Souris - Viser\t\t\t\t\t\t\tR2/RT - Tirer\nClic Gauche Souris - Tirer \t\t\t\t\t\t\t\t\t\n\n\nPas
     de Triche :\n\nToute forme de triche est interdite\u202F!\nExemples de triche
     :\nExploiter des bugs pour \xE9viter les zombies ou passer directement au t\xE9l\xE9porteur.\nModifier
     les fichiers du jeu.\nUtiliser des programmes externes pour tuer automatiquement
@@ -452,7 +457,7 @@ MonoBehaviour:
     \xE0 z\xE9ro, la partie est termin\xE9e. Vous devrez recommencer depuis le d\xE9but\u202F!\nRestez
     en mouvement et \xE9vitez les zones o\xF9 vous pourriez \xEAtre encercl\xE9.\nConseils
     Strat\xE9giques\nNe restez jamais immobile : les zombies seront attir\xE9s par
-    vous\u202F! Gardez toujours un \u0153il sur votre environnement.\n\n"
+    vous\u202F! Gardez toujours un \u0153il sur votre environnement."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -479,7 +484,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.95
+  m_fontSize: 23.4
   m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -515,7 +520,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -380.76855, y: -432.36267, z: -366.59668, w: -466.9344}
+  m_margin: {x: -380.76855, y: -491.80103, z: -366.59668, w: -486.1081}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -813,7 +818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1090476537
 RectTransform:
   m_ObjectHideFlags: 0
