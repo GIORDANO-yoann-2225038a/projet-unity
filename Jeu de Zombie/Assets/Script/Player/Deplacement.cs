@@ -11,10 +11,12 @@ public class Deplacement : MonoBehaviour
     public bool zone;
     public bool isRun= false;
     public Animator animations;
+     public ParticleSystem walkParticles; 
 
     void Start ()
     {
         animations = GameObject.Find("Soldier").GetComponent<Animator>();
+        walkParticles = GameObject.Find("Pas").GetComponent<ParticleSystem>();
     }
 
     void Update()
@@ -25,12 +27,18 @@ public class Deplacement : MonoBehaviour
         animations.SetBool("IsWalk", isMoving); 
         animations.SetFloat("vertical", verticalInput);
         if(verticalInput >0)
-        {
+        {  
             isRun = Input.GetButton("Run");
             animations.SetBool("IsRun",isRun);
+            
             if(isRun == true && verticalInput >0)
             {
                 movementSpeed = 5f;
+                // Activer les particules si elles ne sont pas déjà actives
+
+                Debug.Log("Test");
+                walkParticles.Play();
+           
             }
 
         }
@@ -39,6 +47,10 @@ public class Deplacement : MonoBehaviour
             isRun = false;
             animations.SetBool("IsRun", isRun);
             movementSpeed =3f;
+            if (walkParticles.isPlaying)
+            {
+                walkParticles.Stop();
+            }
         }
         transform.Translate(0,0,verticalInput*movementSpeed * Time.deltaTime);
     }
